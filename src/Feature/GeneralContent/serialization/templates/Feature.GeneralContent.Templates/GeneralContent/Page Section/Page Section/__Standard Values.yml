@@ -1,0 +1,36 @@
+﻿---
+ID: "552238f6-74f0-48f7-9206-67ff1418d41c"
+Parent: "9afb94ea-6255-4f3a-bd64-2d476e920dd2"
+Template: "9afb94ea-6255-4f3a-bd64-2d476e920dd2"
+Path: /sitecore/templates/Feature/GeneralContent/Page Section/Page Section/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200708T000320Z
+    - ID: "2a635282-33dc-4346-a7c0-7a705331d0c7"
+      Hint: DecorSides
+      Value: 
+    - ID: "4413c9b4-ddd8-45fc-8dd1-0fc02d0aa71e"
+      Hint: DecorTopEdge
+      Value: 
+    - ID: "5375f8b9-da21-42e0-b0be-6f4532777e8e"
+      Hint: Style
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "d77ca43b-71a5-4b89-b747-3eb5bceb99c1"
+      Hint: LayoutType
+      Value: "{981887DD-5519-494F-8F10-0292B14C1777}"
+    - ID: "f4a9690a-3b27-4d69-a654-971db2d68137"
+      Hint: Colour
+      Value: 
+    - ID: "f789fb0e-4051-41e3-8004-dd4bbe83f1d3"
+      Hint: PaddingValue
+      Value: "{8E3137AD-8633-4D95-BD3A-55D3C6977A59}"

@@ -1,0 +1,30 @@
+﻿@using Sitecore.Mvc
+
+@{
+    Layout = "~/Views/Common/_CommonLayout.cshtml";
+}
+
+@section HeadSection {
+    @Html.Sitecore().Placeholder("head")
+}
+
+@section CustomStyles {
+    @*Latest compiled and minified CSS*@
+    <link href="~/styles/G8_Campaign.min.css" rel="stylesheet">
+}
+
+<header role="banner">
+    @Html.Sitecore().Placeholder("header")
+</header>
+<main>
+    @Html.Sitecore().Placeholder("main")
+</main>
+<footer role="contentinfo">
+    @Html.Sitecore().Placeholder("footer")
+</footer>
+
+@section CustomBottomScripts {
+    @*Latest compiled and minified JS*@
+    <script src="~/scripts/G8_Campaign.min.js"></script>
+    @*<script src="~/scripts/G8_Campaign.js"></script>*@
+}

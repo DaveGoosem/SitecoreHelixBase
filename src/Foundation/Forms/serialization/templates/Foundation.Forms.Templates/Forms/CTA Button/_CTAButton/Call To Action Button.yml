@@ -1,0 +1,14 @@
+﻿---
+ID: "270a1f1f-bede-435e-8ef8-1a3a1fac01f0"
+Parent: "2110a23a-4097-41be-bba7-7e204e29d2d3"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Forms/CTA Button/_CTAButton/Call To Action Button
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200225T053920Z

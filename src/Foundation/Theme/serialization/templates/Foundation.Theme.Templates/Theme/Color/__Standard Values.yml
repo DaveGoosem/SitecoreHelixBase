@@ -1,0 +1,21 @@
+﻿---
+ID: "b6b54288-99c5-4a30-a888-f983e416641e"
+Parent: "4897fc07-fca2-4edb-ba59-fa9816c0816e"
+Template: "4897fc07-fca2-4edb-ba59-fa9816c0816e"
+Path: /sitecore/templates/Foundation/Theme/Color/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T043636Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

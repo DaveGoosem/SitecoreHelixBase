@@ -1,0 +1,21 @@
+﻿@model Sample.Feature.Navigation.Models.INavigationItem
+
+@if (Model != null && Model.NavDisplayInNav)
+{
+    string pageUrl = Model.PageUrl;
+    string altText = Model.NavTitle;
+    string target = "_self";
+
+    //check for Redirect link, otherwise use the values from the current item
+    if (Model.NavRedirectPage != null && !string.IsNullOrEmpty(Model.NavRedirectPage.Url))
+    {
+        pageUrl = Model.NavRedirectPage.Url;
+        target = !string.IsNullOrEmpty(Model.NavRedirectPage.Target) ? Model.NavRedirectPage.Target : "_self";
+    }
+
+
+    <a href="@pageUrl" title="@Model.NavTitle" target="@target" alt="@altText" class="@Model.LinkItemCssClass">
+        @Model.NavTitle
+    </a>
+
+}

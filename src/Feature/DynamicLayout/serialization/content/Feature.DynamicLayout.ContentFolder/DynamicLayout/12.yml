@@ -1,0 +1,14 @@
+﻿---
+ID: "463891f7-c4de-4af9-8f5e-33609ebc9d7a"
+Parent: "8f8a7ab5-6444-4d31-b997-c752d3fbcc1f"
+Template: "06ffb06f-4f74-48ea-99ef-1ef6b595a976"
+Path: /sitecore/content/Global Content/DynamicLayout/12
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T052925Z

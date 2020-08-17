@@ -1,0 +1,14 @@
+﻿---
+ID: "6b4b4c63-b0e6-4168-bec9-2d65999046a7"
+Parent: "1a0fd0d1-e016-4199-8478-444488ad2aaf"
+Template: "640d4c0f-6d8e-4d29-8a1f-f1e20d54e83f"
+Path: /sitecore/content/Campaign/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T014227Z

@@ -1,0 +1,36 @@
+﻿---
+ID: "7e5f6430-06aa-4e90-bf4d-75937307f7a1"
+Parent: "d537ea73-95ec-49e1-991a-11ef8a998435"
+Template: "d7cca97c-60f3-49b0-a3a3-4e5e521918e9"
+Path: "/sitecore/content/Global Content/Locations/Australian Locations/2551 - Narrabarba"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "042b6a31-dbdb-431e-9d08-e5adfad1551b"
+      Hint: State
+      Value: NSW
+    - ID: "142a68eb-6950-47ba-9f0e-23275f3e25ee"
+      Hint: Longitude
+      Value: 149.8179
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190404T075633Z
+    - ID: "2e9e0f09-ba5e-464c-8b30-e4e1f2f02317"
+      Hint: Suburb
+      Value: Narrabarba
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "8a817c6e-ace2-4acb-887f-f44ea41b1c5a"
+      Hint: Country
+      Value: "{AE7784FA-36FB-405A-BDFD-08960ADD75B6}"
+    - ID: "a1c43f11-b3a8-4281-b33d-52baff802685"
+      Hint: Latitude
+      Value: "-37.2568"
+    - ID: "d5cae13d-3b61-426e-8c35-8e9e8177dbb5"
+      Hint: Postcode
+      Value: 2551

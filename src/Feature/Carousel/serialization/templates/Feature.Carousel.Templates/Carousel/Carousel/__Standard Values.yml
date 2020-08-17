@@ -1,0 +1,45 @@
+﻿---
+ID: "991bc66a-f0e6-40ff-bd58-f5413d6a3702"
+Parent: "05b038af-fe53-46f8-90df-4b8c9d42bddc"
+Template: "05b038af-fe53-46f8-90df-4b8c9d42bddc"
+Path: /sitecore/templates/Feature/Carousel/Carousel/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bed04a6-893c-4d3d-ad92-ffbdd22bd284"
+      Hint: Speed
+      Value: 1500
+    - ID: "18034aaa-9ebe-4216-b26b-b8c138051b10"
+      Hint: AutoPlaySpeed
+      Value: 5000
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200717T060427Z
+    - ID: "2d6e92a6-a770-4f96-a195-26bb794bc097"
+      Hint: PaddingValue
+      Value: "{31F4FD91-1624-494D-9E16-B15B73FBC3E2}"
+    - ID: "4cedc10d-81af-41da-a71c-ffc441522a7a"
+      Hint: AutoPlay
+      Type: Checkbox
+      Value: 0
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9ecbf462-2ca8-4d75-8be7-10c1cf2df2fa"
+      Hint: Infinite
+      Type: Checkbox
+      Value: 1
+    - ID: "ed250bf1-3ae8-4d18-abd6-1d8d9cf5149b"
+      Hint: SlidesToShow
+      Value: 1
+    - ID: "efbf944a-eafc-4c25-8e99-c8c412d28cfd"
+      Hint: SlidesToScroll
+      Value: 1

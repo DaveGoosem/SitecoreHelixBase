@@ -1,0 +1,27 @@
+﻿---
+ID: "4e5c65e4-8a5d-42a0-ac5a-99d1cae0e81e"
+Parent: "9e9504f3-b74d-4518-a028-7ec399376514"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Campaign/Pages/HomePage
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/16x16/home.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {E79C7CA5-FC0C-41C5-AA9C-756A99FAAB4D}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{59A06EB7-7C51-4BE5-BE89-EAFD987C50DD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T013801Z

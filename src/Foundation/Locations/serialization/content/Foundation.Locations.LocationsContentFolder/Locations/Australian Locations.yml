@@ -1,0 +1,18 @@
+﻿---
+ID: "d537ea73-95ec-49e1-991a-11ef8a998435"
+Parent: "50b32085-6e90-4b0e-ad31-7999c581ef58"
+Template: "8807957e-daf2-4f4d-aec2-da3943e3fa25"
+Path: /sitecore/content/Global Content/Locations/Australian Locations
+DB: master
+SharedFields:
+- ID: "ac51462c-8a8d-493b-9492-34d1f26f20f1"
+  Hint: __Default Bucket Query
+  Value: "+location:d537ea7395ec49e1991a11ef8a998435;template:{D7CCA97C-60F3-49B0-A3A3-4E5E521918E9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200210T044133Z

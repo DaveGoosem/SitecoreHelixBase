@@ -1,0 +1,42 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+@model Sample.Feature.Tile.Models.IIconTile
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    using (Html.Glass().BeginEditFrame(Model, "Edit Tile", x => x.Link, x => x.HeadingText, x => x.Text, x => x.IconStyle, x => x.IconSize, x => x.CTAButton))
+    {
+        var tileStyle = (Model.IconStyle != null && !string.IsNullOrEmpty(Model.IconStyle.Icon)) ? Model.IconStyle.Icon : "1";
+
+        var tileWithButtonClass = (Model.CTAButton != null && !string.IsNullOrEmpty(Model.CTAButton.ButtonText)) ? "tile__icon-text--with-button" : string.Empty;
+        tileWithButtonClass += (string.IsNullOrEmpty(Model.HeadingText)) ? " tile__icon-text--with-no-heading" : string.Empty;
+
+        <section class="tile">
+            <div class="tile__icon-wrapper">
+                <div class="tile__icon-icon tile__icon-icon--style-@tileStyle"></div>
+                @if (!string.IsNullOrEmpty(Model.HeadingText))
+                {
+                    <h3 class="tile__icon-heading">
+                        @Html.Glass().Editable(x => x.HeadingText)
+                    </h3>
+                }
+                <p class="tile__icon-text @tileWithButtonClass">
+                    @Html.Glass().Editable(x => x.Text)
+                </p>
+
+                @if (!string.IsNullOrEmpty(Model.CTAButton.ButtonText))
+                {
+                    <div class="tile__icon-button js-content-modal__hook">
+                        @Html.EditorFor(x => x.CTAButton)
+                    </div>
+                }
+                else if (Model.Link != null)
+                {
+                    using (Html.Glass().BeginRenderLink(x => x.Link, new { @class = "tile__icon-whole-tile-link js-content-modal__hook" }, isEditable: true))
+                    {
+                        <span class="sr-only">Find out more</span>
+                    }
+                }
+            </div>
+        </section>
+    }
+}

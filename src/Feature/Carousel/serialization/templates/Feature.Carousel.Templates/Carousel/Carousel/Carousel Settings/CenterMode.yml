@@ -1,0 +1,25 @@
+﻿---
+ID: "9c22f7f8-7511-494d-b61b-3f708f54eccd"
+Parent: "e1d3167f-1a18-4396-9c85-4315b2d1998a"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Carousel/Carousel/Carousel settings/CenterMode
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Enables centred view with partial prev/next slides. (Use with odd numbered number of slides to show)
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200717T061024Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "38d50606-5bd8-4e0c-8742-750cbe1fe6ed"
+Parent: "3cf845d1-a4c7-4d7a-a332-88302c286b68"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/GeneralContent/Alert Bar/AlertBar/Alert Bar
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200710T041416Z

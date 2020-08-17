@@ -1,0 +1,14 @@
+﻿---
+ID: "a14b983f-a140-474b-8e13-2b2b6fa1f050"
+Parent: "6b4b4c63-b0e6-4168-bec9-2d65999046a7"
+Template: "271d21f6-ed09-4f66-8999-84d1cedd78ef"
+Path: /sitecore/content/Campaign/Content/Responsive Images
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200302T041942Z

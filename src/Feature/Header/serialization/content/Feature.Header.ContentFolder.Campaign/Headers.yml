@@ -1,0 +1,14 @@
+﻿---
+ID: "0848558a-ddad-4f8c-8db7-18d4a713e2a3"
+Parent: "6b4b4c63-b0e6-4168-bec9-2d65999046a7"
+Template: "973cb616-9eb8-421a-84e3-2235482c7e78"
+Path: /sitecore/content/Campaign/Content/Headers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200306T011804Z

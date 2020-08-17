@@ -1,0 +1,11 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+
+@model Sample.Feature.Search.Models.IPhraseSearch
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    using (Html.Glass().BeginEditFrame(Model, "Edit Phrase Search", x => x.PlaceholderText, x => x.CustomIconClass, x => x.ShowIcon, x => x.SearchBoxStyle, x => x.SearchBoxSize))
+    {           
+        @Html.EditorFor(x => x.SearchBox)
+    }
+}

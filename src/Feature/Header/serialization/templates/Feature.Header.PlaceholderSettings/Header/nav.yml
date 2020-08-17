@@ -1,0 +1,18 @@
+﻿---
+ID: "1ac786f5-869f-4d10-b49f-804be5f1a491"
+Parent: "9eef2722-931b-4d62-a46f-368423f292eb"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Feature/Header/nav
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: nav
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200306T013350Z

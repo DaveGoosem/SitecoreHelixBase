@@ -1,0 +1,14 @@
+﻿---
+ID: "f32b55a9-d732-4d88-8549-3c4a42ae3bd9"
+Parent: "8f8a7ab5-6444-4d31-b997-c752d3fbcc1f"
+Template: "06ffb06f-4f74-48ea-99ef-1ef6b595a976"
+Path: /sitecore/content/Global Content/DynamicLayout/6 6 No Padding
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T053029Z

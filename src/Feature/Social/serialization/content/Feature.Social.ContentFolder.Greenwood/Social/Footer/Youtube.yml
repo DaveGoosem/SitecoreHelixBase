@@ -1,0 +1,30 @@
+﻿---
+ID: "e0a12651-5bad-4e5c-83b4-a2263725bbea"
+Parent: "be7b152e-c698-43c3-9197-b49ae9eace7d"
+Template: "ac8598de-026a-4d23-9d86-c91d1c2e8dc7"
+Path: /sitecore/content/Greenwood/Content/Social/Footer/Youtube
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0243f902-a182-495a-9052-be5c4952e3af"
+      Hint: ButtonType
+      Value: "{003267B7-1C8B-451A-824A-4D4EF91EE8D2}"
+    - ID: "0e632af0-6aec-4ca7-8ab1-2bcec956d32c"
+      Hint: ButtonIcon
+      Value: "fab fa-youtube"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200713T010353Z
+    - ID: "8bada43b-1ffd-41c7-9d89-d402073698f7"
+      Hint: ButtonStyle
+      Value: "{8419A8D0-8906-4646-98F8-9A836592F48C}"
+    - ID: "fa44c8bb-857f-42cd-8988-ad064a455ad4"
+      Hint: ButtonLink
+      Value: |
+        <link linktype="external" url="http://www.youtube.com/channel/UCSLYTWT3RCbTzl2GqkNjSbA" anchor="" target="_blank" />
+    - ID: "fea845f0-3c96-4093-9eaf-75612f822499"
+      Hint: ButtonSize
+      Value: "{BE0C8B20-43FD-41B7-AE00-133246971B24}"

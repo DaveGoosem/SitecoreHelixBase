@@ -1,0 +1,25 @@
+﻿---
+ID: "4d0e8a12-66b3-4915-b626-ec5cc63aa7e7"
+Parent: "e5d5e1cb-5f5b-4d33-831c-81c48831f497"
+Template: "754812be-7bbf-4c09-b5a9-247611f6c90f"
+Path: /sitecore/content/Greenwood/Content/Navigation/Footer/FooterSecondary
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25049a52-0e01-4d2b-a052-4d933d4c80ff"
+      Hint: FooterSecondaryDecorImage
+      Value: |
+        <image mediaid="{F859FE5B-0C48-4D43-ABCA-7F361A2B7501}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200630T005733Z
+    - ID: "a708a099-92e2-46ea-84e5-d393707beb43"
+      Hint: FooterSecondaryCopyrightText
+      Value: "{copyright} Greenwood {year}"
+    - ID: "fe867de2-2d8a-41c5-9845-90db9d87129e"
+      Hint: FooterSecondaryPages
+      Type: Treelist
+      Value: "{26DB1070-CD80-49DC-85E4-F77C5CB538BB}"

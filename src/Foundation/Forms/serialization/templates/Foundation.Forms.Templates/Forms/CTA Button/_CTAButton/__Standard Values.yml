@@ -1,0 +1,30 @@
+﻿---
+ID: "174b2650-2968-490f-a099-b389bd5cfb54"
+Parent: "2110a23a-4097-41be-bba7-7e204e29d2d3"
+Template: "2110a23a-4097-41be-bba7-7e204e29d2d3"
+Path: /sitecore/templates/Foundation/Forms/CTA Button/_CTAButton/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0243f902-a182-495a-9052-be5c4952e3af"
+      Hint: ButtonType
+      Value: "{B9C2B6DF-FA11-4118-93BD-5E8596935709}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200225T051111Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "798f6847-85fb-45d8-ac04-4cc53e9ccf21"
+      Hint: ButtonText
+      Value: $name
+    - ID: "8bada43b-1ffd-41c7-9d89-d402073698f7"
+      Hint: ButtonStyle
+      Value: 
+    - ID: "fea845f0-3c96-4093-9eaf-75612f822499"
+      Hint: ButtonSize
+      Value: "{616CFB8E-F034-442D-9330-C40320FB2AE1}"

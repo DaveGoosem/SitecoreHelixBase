@@ -1,0 +1,27 @@
+﻿---
+ID: "e5edf599-9636-4d64-ba61-b5499b9dd36e"
+Parent: "e0d87f01-5d83-44b6-b794-f6df2ce115b3"
+Template: "e0d87f01-5d83-44b6-b794-f6df2ce115b3"
+Path: /sitecore/templates/Foundation/Locations/LocationsFolder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {E0D87F01-5D83-44B6-B794-F6DF2CE115B3}
+    {D7CCA97C-60F3-49B0-A3A3-4E5E521918E9}
+    {A583A529-8549-4DE7-BBBB-507E7F638469}
+    {8807957E-DAF2-4F4D-AEC2-DA3943E3FA25}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191219T054257Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,31 @@
+{
+  "name": "QPS",
+  "version": "1.0.0",
+  "description": "Sitecore QPS Node Dependencies",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "glob": "^7.0.3",
+    "gulp": "^4.0.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-foreach": "^0.1.0",
+    "gulp-msbuild": "^0.5.2",
+    "gulp-newer": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "rimraf": "^2.4.3",
+    "run-sequence": "^1.1.4",
+    "xml2js": "^0.4.16",
+    "xmlpoke": "^0.1.12",
+    "yargs": "^6.4.0"
+  },
+  "devDependencies": {
+    "gulp-nuget-restore": "^0.4.0",
+    "gulp-replace": "^0.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

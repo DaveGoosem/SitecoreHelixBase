@@ -1,0 +1,21 @@
+﻿---
+ID: "9d9e5999-40e3-4b3e-9e27-f9b837db4945"
+Parent: "61dd9945-d88d-4e06-8413-6be15099b379"
+Template: "61dd9945-d88d-4e06-8413-6be15099b379"
+Path: /sitecore/templates/Foundation/Locations/Country/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200210T042126Z
+    - ID: "558a399f-42de-4188-b74a-733a20a145f7"
+      Hint: Name
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

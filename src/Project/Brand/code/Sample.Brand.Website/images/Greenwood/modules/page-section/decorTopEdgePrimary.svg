@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 738 738" width="738px" height="738px" xmlns="http://www.w3.org/2000/svg">
+  <rect width="54" height="54" style=""/>
+  <rect width="54" height="54" style="" x="684"/>
+  <rect width="54" height="630" style="" y="54"/>
+  <rect width="54" height="630" style="" y="54" x="684"/>
+  <rect width="630" height="630" style="" y="54" x="54"/>
+  <rect width="54" height="54" style="" y="684"/>
+  <rect width="54" height="54" style="" x="684" y="684"/>
+  <title>imgWavyEdge</title>
+  <desc>Created with Sketch.</desc>
+  <g id="imgWavyEdge" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="matrix(1.00639, 0, 0, 1, 54, 714.043701)">
+    <path d="M0,-30 L626,-30 C626,-9.44661458 626,6.593617 626,18.1206947 C469.5,45.1508684 305.230496,-32.7052729 0,18.1206947 C0,10.7720024 0,-5.26822917 0,-30 Z" id="Rectangle" style="fill: rgb(0, 0, 0);"/>
+  </g>
+  <g id="g-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="matrix(1.00639, 0, 0, -1, 54, 24)">
+    <path d="M0,-30 L626,-30 C626,-9.44661458 626,6.593617 626,18.1206947 C469.5,45.1508684 305.230496,-32.7052729 0,18.1206947 C0,10.7720024 0,-5.26822917 0,-30 Z" id="path-1" style="fill: rgb(0, 0, 0);"/>
+  </g>
+</svg>

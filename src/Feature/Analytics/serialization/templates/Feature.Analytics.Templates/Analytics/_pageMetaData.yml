@@ -1,0 +1,14 @@
+﻿---
+ID: "42f2fd49-d70c-4358-a4d5-8279d447fd15"
+Parent: "d035f9ac-df35-4724-b755-071a1d9985b7"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Analytics/_pageMetaData
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20191209T012349:637114514295319734Z"

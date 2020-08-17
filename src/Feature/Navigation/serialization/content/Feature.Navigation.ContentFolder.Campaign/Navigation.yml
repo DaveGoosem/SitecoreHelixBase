@@ -1,0 +1,14 @@
+﻿---
+ID: "e1bc1bcb-c90e-4d9f-a0e1-db8ee0f42b7b"
+Parent: "6b4b4c63-b0e6-4168-bec9-2d65999046a7"
+Template: "451f23c6-0978-45e8-bb92-08debafe38f4"
+Path: /sitecore/content/Campaign/Content/Navigation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191219T020821Z

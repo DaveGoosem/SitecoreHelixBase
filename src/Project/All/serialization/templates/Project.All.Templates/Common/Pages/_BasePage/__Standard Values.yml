@@ -1,0 +1,31 @@
+﻿---
+ID: "a4666ba7-2823-43ca-bd33-b0b9f38b5c99"
+Parent: "e44f6438-7369-4f87-89cb-59f55e8f918c"
+Template: "e44f6438-7369-4f87-89cb-59f55e8f918c"
+Path: /sitecore/templates/Project/Common/Pages/_BasePage/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191209T021554Z
+    - ID: "346f94c5-5151-4feb-b75e-17392dc74eb9"
+      Hint: MetaTitle
+      Value: $name
+    - ID: "4ea02922-fd89-4e4a-ac82-20cba4ada091"
+      Hint: BrowserTitle
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7cf24412-c587-4ef9-b8d6-1c03396f9163"
+      Hint: IncludeInSitemap
+      Type: Checkbox
+      Value: 1
+    - ID: "f2f7ed06-147f-43bf-9b3b-372c49421880"
+      Hint: MetaOpenGraphTitle
+      Value: $name

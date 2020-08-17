@@ -1,0 +1,21 @@
+﻿---
+ID: "2e62c0de-84a3-498a-8c39-636fa50c7d32"
+Parent: "0599e924-0da6-41a8-85e7-4928af1b5fb0"
+Template: "3cf845d1-a4c7-4d7a-a332-88302c286b68"
+Path: /sitecore/content/Greenwood/Content/Alert Bars/Default All Pages Alert
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200710T042313Z
+    - ID: "931c7355-16de-43ee-b75a-060552ff0630"
+      Hint: AlertBarText
+      Value: "Click here for COVID-19 updates"
+    - ID: "e65feaab-4439-4496-a9ad-a38895d9e176"
+      Hint: AlertBarLink
+      Value: |
+        <link linktype="internal" querystring="" target="" id="{FB53BA0F-3635-4D1D-97A4-2E8F9B887D16}" />

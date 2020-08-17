@@ -1,0 +1,18 @@
+﻿---
+ID: "fa2ccdb2-a07c-4a5a-b0a6-99736b3d561c"
+Parent: "1a0fd0d1-e016-4199-8478-444488ad2aaf"
+Template: "00e6a82c-98b0-4c01-9b11-c628f855196e"
+Path: /sitecore/content/Campaign/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T014231Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

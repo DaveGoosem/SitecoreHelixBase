@@ -1,0 +1,18 @@
+﻿---
+ID: "426a16db-50e7-4f53-91c5-69e539b3d532"
+Parent: "f222a124-cf4c-4a9f-8a99-a3653ce9c2b1"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/Greenwood/GreenwoodLayout
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Views/Project/Greenwood/GreenwoodLayout.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200629T062426Z

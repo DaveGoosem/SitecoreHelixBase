@@ -1,0 +1,17 @@
+﻿---
+ID: "b13342df-7edf-4d8d-aba7-0e43d484aad2"
+Parent: "c9442e11-6c90-4ab7-8556-72856ec0a7af"
+Template: "5b401633-c2d1-49bc-94a7-2b759bf0d0a2"
+Path: /sitecore/content/Global Settings/Callout Tile Styles/Primary
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: primary
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T035621Z

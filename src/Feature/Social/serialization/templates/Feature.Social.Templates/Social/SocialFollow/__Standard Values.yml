@@ -1,0 +1,31 @@
+﻿---
+ID: "32e3f804-e1c3-440d-92b2-43fe2c46dd5b"
+Parent: "ac8598de-026a-4d23-9d86-c91d1c2e8dc7"
+Template: "ac8598de-026a-4d23-9d86-c91d1c2e8dc7"
+Path: /sitecore/templates/Feature/Social/SocialFollow/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200312T015504Z
+    - ID: "3b7169bf-4703-4702-9177-40dcb81982cb"
+      Hint: UseBigIcon
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "798f6847-85fb-45d8-ac04-4cc53e9ccf21"
+      Hint: ButtonText
+      Value: 
+    - ID: "8bada43b-1ffd-41c7-9d89-d402073698f7"
+      Hint: ButtonStyle
+      Value: "{224D1386-B00F-4702-8D3D-3D74B35507C9}"
+    - ID: "fea845f0-3c96-4093-9eaf-75612f822499"
+      Hint: ButtonSize
+      Value: "{616CFB8E-F034-442D-9330-C40320FB2AE1}"

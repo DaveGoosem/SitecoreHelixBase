@@ -1,0 +1,18 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+@model Sample.Feature.GeneralContent.Models.ICTAButton
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    using (Html.Glass().BeginEditFrame(Model, "Edit CTA", 
+        x => x.ButtonStyle, 
+        x => x.ButtonType, 
+        x => x.ButtonSize, 
+        x => x.ButtonText, 
+        x => x.ButtonLink, 
+        x => x.ButtonIcon, 
+        x => x.UseBigIcon,
+        x => x.StretchToFillContainer))
+    {
+        @Html.EditorFor(x => x.CTAButton)
+    }
+}

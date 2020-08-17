@@ -1,0 +1,45 @@
+﻿---
+ID: "e5673149-35e7-4da1-83df-c6356cdfa4c3"
+Parent: "fcc25be6-45f4-4cef-9588-042eb7d6cefc"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/Greenwood/pcolumn
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: pcolumn
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {C8151CC1-1E44-459B-B7F4-E0B161317A09}
+    {D48307F8-E1F9-4281-A1EB-0D7105DD78CC}
+    {BFADCB40-EEF5-40D8-93B1-BC4CAD2C1DB6}
+    {54A9A89F-8334-4914-807C-5B0B917CA216}
+    {99D87203-5E03-415E-A388-32C97F768243}
+    {129394B3-F4D5-40A7-91E8-C9FCC1AF8B2A}
+    {55AC512B-9BDE-4526-BACF-5A0757242234}
+    {E91FA0EA-3360-44AF-B20E-E1BD46A1FE83}
+    {1BD914F6-4EA3-405E-8784-B964F8CC16E1}
+    {52B4D9BB-87A2-460F-90BF-9293B9815407}
+    {50C42105-14C2-4D17-AD43-DA80934DD801}
+    {B48A7798-5367-4278-87C5-E3924513C7AA}
+    {46276811-5C1D-4CFA-96D7-9EF3B6B76D41}
+    {16EFF42F-1E3A-4CC8-AE35-5431B3A4B7DE}
+    {7D1DE652-BC9B-4888-A5EC-729FBAE7E691}
+    {C36746BC-4561-44A1-BC3B-30EE63ABA4E2}
+Languages:
+- Language: en
+  Fields:
+  - ID: "87871ff5-1965-46d6-884f-01d6a0b9c4c1"
+    Hint: Description
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T053738Z

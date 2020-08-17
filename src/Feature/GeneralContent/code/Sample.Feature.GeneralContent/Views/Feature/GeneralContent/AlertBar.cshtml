@@ -1,0 +1,15 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+
+@model Sample.Feature.GeneralContent.Models.IAlertBar
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    <section class="top-alert-bar">
+        <div class="top-alert-bar__sticky">
+            @using (Html.Glass().BeginRenderLink(x => x.AlertBarLink, new { @class = "top-alert-bar__link" }, isEditable: true))
+            {
+                @Html.Glass().Editable(x => x.AlertBarText)                
+            }            
+        </div>
+    </section>    
+}

@@ -1,0 +1,62 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+@model Sample.Feature.GeneralContent.Models.IPageSection
+
+@if (Html.Glass().IsInEditingMode)
+{
+    using (Html.Glass().BeginEditFrame(Model, "Edit Page Section", x => x.Style, x => x.Colour, x => x.DecorSides, x => x.DecorTopEdge, x => x.PaddingValue, x => x.LayoutStyle))
+    {
+        <div>Click here to modify page content</div>
+    }
+}
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    var pageSectionStyle = Model.Style != null ? Model.Style.ThemeValue : "normal";
+    var pageSectionColour = Model.Colour != null ? Model.Colour.ThemeValue : "normal";
+    var pageSectionDecorSides = Model.DecorSides != null ? Model.DecorSides.PageSectionDecorSides : "none";
+    var pageSectionDecorTopEdge = Model.DecorTopEdge != null ? Model.DecorTopEdge.PageSectionDecorTopEdge : "none";
+    var paddingValue = Model.PaddingValue != null && !string.IsNullOrEmpty(Model.PaddingValue.ThemeValue) ? Model.PaddingValue.ThemeValue : "0";
+    var layoutStyle = Model.LayoutStyle != null && !string.IsNullOrEmpty(Model.LayoutStyle.ThemeValue) ? Model.LayoutStyle.ThemeValue : "normal";
+
+    <section class="page-section">
+        <div class="page-section__content
+                 page-section__content--style-@pageSectionStyle
+                 page-section__content--color-@pageSectionColour
+                 page-section__content--decor-sides-@pageSectionDecorSides
+                 page-section__content--decor-top-edge-@pageSectionDecorTopEdge">
+            @if (layoutStyle == "normal")
+            {
+                <div class="page-section__inner-content pt-@paddingValue pb-@paddingValue">
+                    @Html.Sitecore().DynamicPlaceholder("page-section")
+                </div>
+            }
+            else if (layoutStyle == "fluid-left")
+            {
+                <div class="page-section__fluid-container">
+                    <div class="page-section__fluid-content-fluid">
+                        @Html.Sitecore().DynamicPlaceholder("page-section-left")
+                    </div>
+                    <div class="page-section__fluid-content-normal page-section__fluid-content-normal--right">
+                        <div class="page-section__inner-content pt-@paddingValue pb-@paddingValue">
+                            @Html.Sitecore().DynamicPlaceholder("page-section-right")
+                        </div>
+                    </div>
+                </div>
+            }
+            else if (layoutStyle == "fluid-right")
+            {
+                <div class="page-section__fluid-container">
+                    <div class="page-section__fluid-content-normal page-section__fluid-content-normal--left">
+                        <div class="page-section__inner-content pt-@paddingValue pb-@paddingValue">
+                            @Html.Sitecore().DynamicPlaceholder("page-section-left")
+                        </div>
+                    </div>
+                    <div class="page-section__fluid-content-fluid">
+                        @Html.Sitecore().DynamicPlaceholder("page-section-right")
+                    </div>
+                </div>
+            }
+
+        </div>
+    </section>
+}

@@ -1,0 +1,17 @@
+﻿---
+ID: "003267b7-1c8b-451a-824a-4d4ef91ee8d2"
+Parent: "b9c2b6df-fa11-4118-93bd-5e8596935709"
+Template: "5b401633-c2d1-49bc-94a7-2b759bf0d0a2"
+Path: /sitecore/content/Global Settings/CTA Button Link Types/Link
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: link
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T052929Z

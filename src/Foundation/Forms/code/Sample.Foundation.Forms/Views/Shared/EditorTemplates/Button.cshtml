@@ -1,0 +1,55 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+@model Sample.Foundation.Forms.Models.Button
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    var buttonStyle = !string.IsNullOrEmpty(Model.ButtonStyle) ? Model.ButtonStyle : "primary";
+    var buttonSize = !string.IsNullOrEmpty(Model.ButtonSize) ? Model.ButtonSize : "small";
+    var buttonType = Model.ButtonType != null && !string.IsNullOrEmpty(Model.ButtonType) ? Model.ButtonType : "link";
+    var buttonText = Model.ButtonText;
+    var iconOnly = string.IsNullOrEmpty(buttonText);
+    var buttonIcon = string.Format("{0} cta-button__icon--style-{1} {2}", Model.ButtonIcon, buttonStyle, Model.UseBigIcon ? "cta-button__icon--big" : "");
+    var buttonStretchClass = Model.StretchToFillContainer ? " cta-button--stretch" : "";
+    if (iconOnly)
+    {
+        buttonIcon += " cta-button__icon--icon-only cta-button__icon--icon-only-size-" + buttonSize;
+    }
+    var buttonClass = string.Format("cta-button__button cta-button__button--style-{0} cta-button__button--size-{1} {2}", buttonStyle, buttonSize, (!string.IsNullOrEmpty(buttonIcon) && string.IsNullOrEmpty(buttonText) ? "cta-button__button--icon-only" : ""));    
+
+    <section class="cta-button @buttonStretchClass">
+        @if (Model.ButtonLink != null)
+        {
+            using (Html.Glass().BeginRenderLink(x => x.ButtonLink, new { @class = @buttonClass, @role = "button" }, isEditable: true))
+            {
+                if (!string.IsNullOrEmpty(buttonIcon))
+                {
+                    
+                    <i class="cta-button__icon @buttonIcon"></i>
+                }
+
+                if (!iconOnly)
+                {
+                    <span class="cta-button__text @(!string.IsNullOrEmpty(buttonIcon) ? "cta-button__text--with-icon" : "") ">
+                        @buttonText
+                    </span>
+                }
+            }
+        }
+        else
+        {
+            <a href="javascript:" class="@buttonClass" role="button">
+                @if (!string.IsNullOrEmpty(buttonIcon))
+                {
+                    <i class="cta-button__icon @buttonIcon"></i>
+                }
+
+                @if (!string.IsNullOrEmpty(buttonText))
+                {
+                    <span class="cta-button__text @(!string.IsNullOrEmpty(buttonIcon) ? "cta-button__text--with-icon" : "") ">
+                        @buttonText
+                    </span>
+                }
+            </a>
+        }
+    </section>
+}

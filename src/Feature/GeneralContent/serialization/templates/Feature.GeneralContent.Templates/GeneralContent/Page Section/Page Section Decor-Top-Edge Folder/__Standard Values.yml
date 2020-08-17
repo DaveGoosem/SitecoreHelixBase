@@ -1,0 +1,25 @@
+﻿---
+ID: "8cc87e88-2b74-49b6-9ace-3682771d0c71"
+Parent: "932b6bde-d53f-4c61-be83-d7f254794d71"
+Template: "932b6bde-d53f-4c61-be83-d7f254794d71"
+Path: "/sitecore/templates/Feature/GeneralContent/Page Section/Page Section Decor-Top-Edge Folder/__Standard Values"
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {932B6BDE-D53F-4C61-BE83-D7F254794D71}
+    {0859C065-B7EB-48D0-A86F-6FEE9D3BB4F8}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T232628Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

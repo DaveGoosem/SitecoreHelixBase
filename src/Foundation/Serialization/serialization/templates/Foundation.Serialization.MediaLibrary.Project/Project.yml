@@ -1,0 +1,14 @@
+﻿---
+ID: "52c609ff-a9c6-40b0-9440-a8612bcab66e"
+Parent: "730c1699-87a4-4ca7-a9ce-294ad7151f13"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Files/Project
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191128T223417Z

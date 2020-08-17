@@ -1,0 +1,26 @@
+﻿---
+ID: "0e6aa20c-e754-4176-a45d-988e4d6fc068"
+Parent: "ec0b1fd0-b5cd-4155-908c-b8c73522c02f"
+Template: "ec0b1fd0-b5cd-4155-908c-b8c73522c02f"
+Path: /sitecore/templates/Feature/Navigation/Footer/FooterFolder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {754812BE-7BBF-4C09-B5A9-247611F6C90F}
+    {EC0B1FD0-B5CD-4155-908C-B8C73522C02F}
+    {1790CF89-8222-4AE9-81C8-9ACDB34375E2}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191219T015522Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

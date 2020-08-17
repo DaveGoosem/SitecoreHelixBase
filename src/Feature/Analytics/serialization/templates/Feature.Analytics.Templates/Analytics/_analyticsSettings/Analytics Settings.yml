@@ -1,0 +1,14 @@
+﻿---
+ID: "e183cab6-8a72-41c3-8675-e13d47736e5c"
+Parent: "71005a35-5740-47db-80cc-90ad74e9a251"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Analytics/_analyticsSettings/Analytics Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191212T013004Z

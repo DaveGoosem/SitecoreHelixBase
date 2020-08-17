@@ -1,0 +1,14 @@
+﻿---
+ID: "60c4a552-2d91-4cc5-8cca-d5896dc98a61"
+Parent: "6b4b4c63-b0e6-4168-bec9-2d65999046a7"
+Template: "a716f668-2462-4638-a737-a7cde235e0d7"
+Path: /sitecore/content/Campaign/Content/CTA Buttons
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200225T051233Z

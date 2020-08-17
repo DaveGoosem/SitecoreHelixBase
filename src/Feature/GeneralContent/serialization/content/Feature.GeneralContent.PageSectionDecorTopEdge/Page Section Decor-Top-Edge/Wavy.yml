@@ -1,0 +1,17 @@
+﻿---
+ID: "f7c8ad2e-4975-4f8d-856e-5476f6bf7c0d"
+Parent: "f0b7405d-6a7c-4bb9-b800-d8cf29ce3d65"
+Template: "0859c065-b7eb-48d0-a86f-6fee9d3bb4f8"
+Path: "/sitecore/content/Greenwood/Settings/Page Section Decor-Top-Edge/Wavy"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11ec02b1-bd5f-44d4-b549-63ac4c445942"
+      Hint: PageSectionDecorTopEdge
+      Value: primary
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200708T000128Z

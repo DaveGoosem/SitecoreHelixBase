@@ -1,0 +1,29 @@
+﻿---
+ID: "ed3d0778-749f-46ea-996a-16c440d8939e"
+Parent: "62cdb22c-1403-4cc0-8cb1-28f0ac1469e0"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Feature/Accordion/Accordion Body
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "accordion-body"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {C8151CC1-1E44-459B-B7F4-E0B161317A09}
+    {52B4D9BB-87A2-460F-90BF-9293B9815407}
+    {B48A7798-5367-4278-87C5-E3924513C7AA}
+    {50C42105-14C2-4D17-AD43-DA80934DD801}
+    {D48307F8-E1F9-4281-A1EB-0D7105DD78CC}
+    {55AC512B-9BDE-4526-BACF-5A0757242234}
+    {129394B3-F4D5-40A7-91E8-C9FCC1AF8B2A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200225T003739Z

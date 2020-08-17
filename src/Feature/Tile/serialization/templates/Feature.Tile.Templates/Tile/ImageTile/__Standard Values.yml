@@ -1,0 +1,21 @@
+﻿---
+ID: "bdcddfd3-cb8b-4b62-84b6-19a4e0103b25"
+Parent: "b01afa76-33f5-4d3b-8bc8-634d152e28c9"
+Template: "b01afa76-33f5-4d3b-8bc8-634d152e28c9"
+Path: /sitecore/templates/Feature/Tile/ImageTile/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T023849Z
+    - ID: "38d3e661-6ee3-4f9d-ac1d-2248fe9de250"
+      Hint: HeadingText
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

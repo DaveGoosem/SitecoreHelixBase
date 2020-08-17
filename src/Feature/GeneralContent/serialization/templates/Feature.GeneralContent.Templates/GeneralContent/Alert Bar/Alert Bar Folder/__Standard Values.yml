@@ -1,0 +1,25 @@
+﻿---
+ID: "1c88238c-511b-44c9-b7bb-c135bd7bf432"
+Parent: "1fb3228d-04df-443c-a6bf-3925c860f996"
+Template: "1fb3228d-04df-443c-a6bf-3925c860f996"
+Path: /sitecore/templates/Feature/GeneralContent/Alert Bar/Alert Bar Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {1FB3228D-04DF-443C-A6BF-3925C860F996}
+    {3CF845D1-A4C7-4D7A-A332-88302C286B68}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T014620Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

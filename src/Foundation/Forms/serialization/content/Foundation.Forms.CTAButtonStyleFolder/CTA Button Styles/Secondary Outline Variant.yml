@@ -1,0 +1,17 @@
+﻿---
+ID: "436e48cb-d7ef-4157-8a76-9c6259edb230"
+Parent: "224d1386-b00f-4702-8d3d-3d74b35507c9"
+Template: "5b401633-c2d1-49bc-94a7-2b759bf0d0a2"
+Path: /sitecore/content/Global Settings/CTA Button Styles/Secondary Outline Variant
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: "secondary-outline-variant"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T051834Z

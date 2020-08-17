@@ -1,0 +1,114 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+@using System.Collections.Specialized;
+
+@model Sample.Feature.Analytics.Models.IPageMetaData
+
+@*Used only in editor mode to allow content authors to edit the page meta data from Experience editor*@
+@if (Html.Glass().IsInEditingMode)
+{
+    using (Html.Glass().BeginEditFrame(Model, "Edit Page Meta Data",
+        x => x.BrowserTitle,
+        x => x.MetaTitle,
+        x => x.MetaDescription,
+        x => x.MetaKeywords,
+        x => x.MetaDataRobots,
+        x => x.CanonicalUrl,
+        x => x.MetaOpenGraphTitle,
+        x => x.MetaOpenGraphType,
+        x => x.MetaOpenGraphDescription,
+        x => x.MetaOpenGraphImage,
+        x => x.MetaTwitterTitle,
+        x => x.MetaTwitterDescription,
+        x => x.MetaTwitterImage,
+        x => x.MetaTwitterCard))
+    {
+        <div>Click here to modify Page Meta Data</div>
+    }
+}
+
+@if (Model != null)
+{
+    string baseUrl = Request.Url.Scheme + "://" + Request.Url.Authority + Request.ApplicationPath.TrimEnd('/');
+
+    <title>@Model.BrowserTitle</title>
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    if (!string.IsNullOrEmpty(Model.Language.ToString()))
+    {
+        <meta http-equiv="Content-Language" content="@Model.Language" />
+        <meta name="language" content="@Model.Language" />
+    }
+    if (!string.IsNullOrEmpty(Model.MetaTitle))
+    {
+        <meta name="title" content="@Model.MetaTitle" />
+    }
+
+    if (!string.IsNullOrEmpty(Model.MetaDescription))
+    {
+        <meta name="description" content="@Model.MetaDescription" />
+    }
+
+    if (!string.IsNullOrEmpty(Model.MetaKeywords))
+    {
+        <meta name="keywords" content="@Model.MetaKeywords" />
+    }
+
+    if (!string.IsNullOrEmpty(Model.MetaDataRobots))
+    {
+        NameValueCollection metaRobotTags = Sitecore.Web.WebUtil.ParseUrlParameters(Model.MetaDataRobots);
+        foreach (string tag in metaRobotTags.AllKeys)
+        {
+            <meta name="@tag" content="@metaRobotTags[tag]" />
+        }
+    }
+
+    if (Model.CanonicalUrl != null && !string.IsNullOrEmpty(Model.CanonicalUrl.Url))
+    {
+        <link rel="canonical" href="@Html.Raw((baseUrl + Model.CanonicalUrl.Url).ToLower())">
+    }
+    else
+    {
+        <link rel="canonical" href="@((baseUrl + Model.PageUrl).ToLower())" />
+    }
+
+    <!--OpenGraph Tags-->
+    if (!string.IsNullOrEmpty(Model.MetaOpenGraphTitle))
+    {
+        <meta property="og:title" content="@Model.MetaOpenGraphTitle" />
+        <meta property="og:url" content="@(baseUrl + Model.PageUrl)" />
+    }
+
+    if (!string.IsNullOrEmpty(Model.MetaOpenGraphType))
+    {
+        <meta property="og:type" content="@Model.MetaOpenGraphType" />
+    }
+
+    if (!string.IsNullOrEmpty(Model.MetaOpenGraphDescription))
+    {
+        <meta property="og:description" content="@Model.MetaOpenGraphDescription" />
+    }
+
+    if (Model.MetaOpenGraphImage != null && !string.IsNullOrEmpty(Model.MetaOpenGraphImage.Src))
+    {
+        <meta property="og:image" content="@(Model.MetaOpenGraphImage.Src)" />
+    }
+
+    if (!string.IsNullOrEmpty(Model.MetaTwitterTitle))
+    {
+        <meta property="twitter:title" content="@Model.MetaTwitterTitle" />
+    }
+
+    if (!string.IsNullOrEmpty(Model.MetaTwitterDescription))
+    {
+        <meta property="twitter:description" content="@Model.MetaTwitterDescription" />
+    }
+
+    if (Model.MetaTwitterImage != null && !string.IsNullOrEmpty(Model.MetaTwitterImage.Src))
+    {
+        <meta property="twitter:image" content="@Model.MetaTwitterImage.Src" />
+    }
+
+    if (!string.IsNullOrEmpty(Model.MetaTwitterCard))
+    {
+        <meta property="twitter:card" content="@Model.MetaTwitterCard" />
+    }
+}

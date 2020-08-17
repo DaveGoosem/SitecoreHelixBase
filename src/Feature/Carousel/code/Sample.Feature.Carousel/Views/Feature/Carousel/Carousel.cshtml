@@ -1,0 +1,55 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+
+@model Sample.Feature.Carousel.Models.ICarousel
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    using (Html.Glass().BeginEditFrame(Model, "Edit Carousel",
+        x => x.ButtonColor,
+        x => x.Infinite,
+        x => x.AdaptiveHeight,
+        x => x.VariableWidth,
+        x => x.AutoPlay,
+        x => x.AutoPlaySpeed,
+        x => x.Speed,
+        x => x.SlidesToShow,
+        x => x.SlidesToScroll,
+        x => x.CenterMode))
+    {
+        var carouselClass = "carousel-slider__wrapper js-carousel";
+        var buttonColor = Model.ButtonColor != null && !string.IsNullOrEmpty(Model.ButtonColor.ThemeValue) ? Model.ButtonColor.ThemeValue : "primary";
+        var isInfinite = Model.Infinite.ToString().ToLower();
+        var isAdaptiveHeight = Model.AdaptiveHeight.ToString().ToLower();
+        var isVariableWidth = Model.VariableWidth.ToString().ToLower();
+        var isAutoplay = Model.AutoPlay.ToString().ToLower();
+        var autoPlaySpeed = Model.AutoPlaySpeed;
+        var speed = Model.Speed;
+        var numberOfslidesToShow = Model.SlidesToShow > 0 ? Model.SlidesToShow : 1;
+        var numberOfSlidesToScroll = Model.SlidesToScroll > 0 ? Model.SlidesToScroll : 1;
+        var isCenterMode = Model.CenterMode.ToString().ToLower();
+
+        if (Html.Glass().IsInEditingMode)
+        {
+            carouselClass = string.Empty;
+            <p>[Add you carousel slides here. Note: The Carousel won't be enabled until you view the page in Preview or Published mode.]</p>
+        }
+
+        <section class="carousel-slider">
+            <div class="@carouselClass"
+                 data-carousel-button-color="@buttonColor"
+                 data-slick='{
+            "infinite": @isInfinite,
+            "adaptiveHeight": @isAdaptiveHeight,
+            "variableWidth": @isVariableWidth,
+            "autoplay": @isAutoplay,
+            "autoplaySpeed" : @autoPlaySpeed,
+            "speed": @speed,
+            "slidesToShow": @numberOfslidesToShow,
+            "slidesToScroll": @numberOfSlidesToScroll,
+            "centerMode": @isCenterMode
+            }'>
+                @Html.Sitecore().DynamicPlaceholder("carousel-content")
+            </div>
+        </section>
+    }
+}

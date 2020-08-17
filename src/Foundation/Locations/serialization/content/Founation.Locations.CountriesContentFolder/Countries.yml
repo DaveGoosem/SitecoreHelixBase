@@ -1,0 +1,14 @@
+﻿---
+ID: "aa651507-362e-4171-8eb9-08e13ea33e3b"
+Parent: "6a1d2c40-5f06-44da-9dcf-c2766b388f2c"
+Template: "a583a529-8549-4de7-bbbb-507e7f638469"
+Path: /sitecore/content/Global Content/Countries
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200210T044355Z

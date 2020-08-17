@@ -1,0 +1,11 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+
+@model List<Sample.Foundation.Forms.Models.Button>
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    <ul class="social-link-list">
+        @*Editor templates will automatically render a collection so we don't need to iterate here*@
+        @Html.EditorFor(x => x)
+    </ul>
+}

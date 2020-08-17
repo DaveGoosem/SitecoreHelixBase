@@ -1,0 +1,10 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+
+@model Sample.Feature.Accordion.Models.IAccordionItem
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    <section class="accordion">
+        @Html.Partial("~/Views/Feature/Accordion/AccordionItem.cshtml", Model)
+    </section>
+}

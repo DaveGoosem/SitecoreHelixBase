@@ -1,0 +1,18 @@
+﻿---
+ID: "a0722ba9-465f-408c-87d1-76a418a93d3d"
+Parent: "6dc8ac8c-62cf-4c3f-9b96-aa52dd977b24"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/GeneralContent/Quicklinks
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200302T064956Z

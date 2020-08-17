@@ -1,0 +1,30 @@
+﻿---
+ID: "9fa3e5f1-9221-4793-b44a-db3e11e5cc53"
+Parent: "05913ac8-9416-4bd4-9647-d19b711d328b"
+Template: "d6342f16-de1c-4d97-b2b4-7879c791640e"
+Path: /sitecore/content/Greenwood/Content/Headers/DefaultHeader
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b6e74c4-50c7-4f97-ad60-eea98e8ec36b"
+      Hint: HeaderLogoImage
+      Value: |
+        <image mediaid="{FC7BEC76-9549-4700-8EE9-B5E1B73F6186}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200306T013625Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7d555062-5185-463f-99c9-716d7894effb"
+      Hint: IncludeAlertBarSpace
+      Type: Checkbox
+      Value: 1
+    - ID: "d274a81b-5c45-48ca-a55f-65cb5a5a0fd3"
+      Hint: HeaderLogoImageLink
+      Value: |
+        <link linktype="internal" querystring="" target="" id="{9416DB1D-4C66-4CA1-AE26-BE7DA81B0E1C}" />

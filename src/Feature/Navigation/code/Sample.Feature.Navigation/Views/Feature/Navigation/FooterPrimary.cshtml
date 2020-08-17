@@ -1,0 +1,56 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model Sample.Feature.Navigation.Models.IFooter
+
+@if (Model != null)
+{
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer__top-wrapper">
+                    @using (Html.Glass().BeginRenderLink(x => x.FooterLogoLink, new { @class = "footer__logo-link" }, isEditable: true))
+                    {
+                        @Html.Glass().Editable(x => x.FooterLogoImage, new { @class = "footer__logo-image" })
+                    }
+                    <div class="footer__other-links">
+                        @*We can't have any white space in side these containers*@
+                        <div class="footer__button-link-list">@Html.Sitecore().Placeholder("footerAfterNav1")</div>
+                        <div class="footer__social-link-list">@Html.Sitecore().Placeholder("footerAfterNav2")</div>
+                    </div>
+                    <div class="footer__links">
+                        <ul class="footer__link-list footer__link-list--primary">
+                            @if (Model.FooterPrimaryColumnItems != null && Model.FooterPrimaryColumnItems.Any())
+                            {
+                                foreach (var footerItem in Model.FooterPrimaryColumnItems)
+                                {
+                                    //we want to force the item to display in navigation as it's populated by a seperate TreeList field on the datasource item
+                                    footerItem.NavDisplayInNav = true;
+                                    //assign the primary footer specific class to the link element
+                                    footerItem.LinkItemCssClass = "footer__link";
+                                    <li class="footer__link-item">
+                                        @Html.Partial("~/Views/Feature/Navigation/_NavigationItem.cshtml", footerItem)
+                                    </li>
+                                }
+                            }
+                        </ul>
+                        <ul class="footer__link-list footer__link-list--secondary">
+                            @if (Model.FooterSecondaryColumnItems != null && Model.FooterSecondaryColumnItems.Any())
+                            {
+                                foreach (var footerItem in Model.FooterSecondaryColumnItems)
+                                {
+                                    //we want to force the item to display in navigation as it's populated by a seperate TreeList field on the datasource item
+                                    footerItem.NavDisplayInNav = true;
+                                    //assign the primary footer specific class to the link element
+                                    footerItem.LinkItemCssClass = "footer__link";
+                                    <li class="footer__link-item">
+                                        @Html.Partial("~/Views/Feature/Navigation/_NavigationItem.cshtml", footerItem)
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                </div>
+                @Html.Sitecore().Placeholder("footerSecondary")
+            </div>
+        </div>
+    </section>
+}

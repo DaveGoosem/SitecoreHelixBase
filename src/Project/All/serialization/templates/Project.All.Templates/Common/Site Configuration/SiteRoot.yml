@@ -1,0 +1,28 @@
+﻿---
+ID: "54a4d992-35af-462f-895a-176b38b727cf"
+Parent: "90370902-61d0-4811-97b1-561d7461f56e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Common/Site Configuration/SiteRoot
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/window_earth.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {C80230B3-BA6C-4584-B09D-FE7B9861595F}
+    {71005A35-5740-47DB-80CC-90AD74E9A251}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{7124C57C-1D2F-4201-A3E5-EB3C1EACF95C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T011559Z

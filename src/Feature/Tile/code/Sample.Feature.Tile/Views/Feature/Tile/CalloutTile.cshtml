@@ -1,0 +1,41 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+@model Sample.Feature.Tile.Models.ICalloutTile
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    using (Html.Glass().BeginEditFrame(Model, "Edit Tile", x => x.CalloutStyle, x => x.CalloutColor, x => x.CalloutText, x => x.CalloutRating, x => x.CalloutTitle))
+    {
+        var calloutStyle = (Model.CalloutStyle != null && !string.IsNullOrEmpty(Model.CalloutStyle.ThemeValue)) ? Model.CalloutStyle.ThemeValue : "primary";
+        var calloutColor = (Model.CalloutColor != null && !string.IsNullOrEmpty(Model.CalloutColor.ThemeValue)) ? Model.CalloutColor.ThemeValue : "green";
+
+        <section class="tile">
+            <div class="tile__callout-wrapper">
+                <div class="tile__callout tile__callout--style-@calloutStyle tile__callout--color-@calloutColor">
+
+                    <div class="tile__callout-text">
+                        @Html.Glass().Editable(x => x.CalloutText)
+                    </div>
+
+                    @if (Model.CalloutRating.HasValue && Model.CalloutRating > 0)
+                    {
+                        <ul class="tile__callout-rating">
+                            @for (int i = 0; i < Model.CalloutRating; i++)
+                            {
+                                <li class="tile__callout-rating-item">
+                                    <i class="fa fa-star"></i>
+                                </li>
+                            }
+                        </ul>
+                    }
+                </div>
+
+                @if (!string.IsNullOrEmpty(Model.CalloutTitle))
+                {
+                    <div class="tile__callout-title">
+                        @Html.Glass().Editable(x => x.CalloutTitle)
+                    </div>
+                }
+            </div>
+        </section>
+    }
+}

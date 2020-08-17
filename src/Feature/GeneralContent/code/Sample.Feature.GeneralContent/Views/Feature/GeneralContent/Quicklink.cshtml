@@ -1,0 +1,17 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+
+@model Sample.Feature.GeneralContent.Models.IQuickLink
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    using (Html.Glass().BeginEditFrame(Model, "Edit Quicklink", x => x.QuickLinkText, x => x.QuickLinkTarget))
+    {
+        <section class="quick-link">
+            @using (Html.Glass().BeginRenderLink(x => x.QuickLinkTarget, new { @class = "quick-link__link" }, isEditable: true))
+            {
+                @Html.Glass().Editable(x => x.QuickLinkText)
+                <i class="quick-link__chevron-right"></i>
+            }
+        </section>
+    }
+}

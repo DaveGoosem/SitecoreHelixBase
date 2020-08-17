@@ -1,0 +1,28 @@
+﻿---
+ID: "3209e02b-8eb9-4273-964e-beda9267ed08"
+Parent: "29bafa4a-7690-4995-8191-b7abc537a556"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Tile/IconTile/Tile/IconStyle
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "query:./ancestor-or-self::*[@@templateid='{54A4D992-35AF-462F-895A-176B38B727CF}']//*[@@templateid='{00E6A82C-98B0-4C01-9B11-C628F855196E}']//*[@@templateid='{B0A0A430-B141-4151-AB02-D5CECF21A1D6}']"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droplink
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Style of the tile
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200714T061854Z

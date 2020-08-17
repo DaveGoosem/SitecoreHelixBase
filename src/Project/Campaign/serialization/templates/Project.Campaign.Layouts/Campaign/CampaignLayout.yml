@@ -1,0 +1,18 @@
+﻿---
+ID: "69ed55c0-1a0b-419b-a4ac-fc5a761fd0f2"
+Parent: "e80b648d-8d2c-456f-81c7-073110a087f5"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/Campaign/CampaignLayout
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Views/Project/Campaign/CampaignLayout.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191128T070921Z

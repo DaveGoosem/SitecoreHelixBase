@@ -1,0 +1,14 @@
+﻿---
+ID: "29bafa4a-7690-4995-8191-b7abc537a556"
+Parent: "75691a43-5119-41a8-b057-aee5c1fe09d2"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Tile/IconTile/Tile
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200714T060134Z

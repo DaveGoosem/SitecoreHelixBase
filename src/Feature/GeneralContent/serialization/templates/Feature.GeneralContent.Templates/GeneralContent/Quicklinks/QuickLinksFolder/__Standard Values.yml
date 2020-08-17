@@ -1,0 +1,26 @@
+﻿---
+ID: "e09dcb88-2bf2-4a3e-9966-3fd23a411d3d"
+Parent: "bd3c2171-a5f3-422c-9fe3-4a0ae37fdf7b"
+Template: "bd3c2171-a5f3-422c-9fe3-4a0ae37fdf7b"
+Path: /sitecore/templates/Feature/GeneralContent/Quicklinks/QuickLinksFolder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {BD3C2171-A5F3-422C-9FE3-4A0AE37FDF7B}
+    {8888E5DE-2933-4007-BAF5-D710AF2BD7E8}
+    {CC34ABCD-4401-4888-B7F5-6FBB856DA57C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T014620Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

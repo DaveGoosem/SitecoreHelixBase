@@ -1,0 +1,27 @@
+﻿---
+ID: "ac8598de-026a-4d23-9d86-c91d1c2e8dc7"
+Parent: "9098fbe7-5a7e-44f1-85b7-49cbf7d52c25"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Social/SocialFollow
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/wlan_antenna.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {2110A23A-4097-41BE-BBA7-7E204E29D2D3}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{32E3F804-E1C3-440D-92B2-43FE2C46DD5B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200312T013618Z

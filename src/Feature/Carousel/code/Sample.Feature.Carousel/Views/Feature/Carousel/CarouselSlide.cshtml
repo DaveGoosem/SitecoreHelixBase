@@ -1,0 +1,15 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+@model Sample.Feature.Carousel.Models.ICarousel
+
+@if (Html.Glass().IsInEditingMode)
+{
+    <p>Click here to modify carousel slide</p>
+}
+
+@{
+    var paddingValue = Model != null && Model.PaddingValue != null && !string.IsNullOrEmpty(Model.PaddingValue.ThemeValue) ? Model.PaddingValue.ThemeValue : "0";
+}
+
+<div class="pl-@paddingValue pr-@paddingValue">
+    @Html.Sitecore().DynamicPlaceholder("carousel-slide-content")
+</div>

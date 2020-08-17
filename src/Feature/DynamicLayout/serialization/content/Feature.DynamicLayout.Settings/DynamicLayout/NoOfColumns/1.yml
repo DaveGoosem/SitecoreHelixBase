@@ -1,0 +1,21 @@
+﻿---
+ID: "c9ebf095-90e3-4707-b61f-6afb1e8f258a"
+Parent: "b9b56bd2-94ec-421d-9a7b-82a70ce0eb16"
+Template: "baeadf11-4fe3-4cd1-8d52-98697bba3343"
+Path: /sitecore/content/Global Settings/DynamicLayout/NoOfColumns/1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25450d7d-2210-4e54-823b-e815cdf4224d"
+      Hint: NumberOfColumns
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T044439Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

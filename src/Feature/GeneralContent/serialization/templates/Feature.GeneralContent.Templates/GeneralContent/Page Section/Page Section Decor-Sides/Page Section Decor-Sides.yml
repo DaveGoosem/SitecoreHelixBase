@@ -1,0 +1,14 @@
+﻿---
+ID: "f8e85b53-b2c4-4b8d-921a-579aadb688e4"
+Parent: "609031f5-0732-45e4-b146-ee1a08a5dea9"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: "/sitecore/templates/Feature/GeneralContent/Page Section/Page Section Decor-Sides/Page Section Decor-Sides"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T234019Z
