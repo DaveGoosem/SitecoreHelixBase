@@ -9,8 +9,8 @@ namespace Sample.Foundation.Routing.App_Start
         //Register the PublicRouteProvider with MVC
         public static void RegisterRoutes(RouteCollection routes)
         {
-            //when applied with data attribute for public route, you can use a path like /endeavourapi/{controller}/{action}
-            routes.MapMvcAttributeRoutes(new PublicRouteProvider("g8api"));
+            //when applied with data attribute for public route, you can use a path like /sampleapi/{controller}/{action}
+            routes.MapMvcAttributeRoutes(new PublicRouteProvider("sampleapi"));
         }
     }
 }
