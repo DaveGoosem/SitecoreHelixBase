@@ -1,0 +1,33 @@
+﻿---
+ID: "aaeced73-fb5c-400c-aceb-6ffcd2291b60"
+Parent: "75691a43-5119-41a8-b057-aee5c1fe09d2"
+Template: "75691a43-5119-41a8-b057-aee5c1fe09d2"
+Path: /sitecore/templates/Feature/Tile/IconTile/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0243f902-a182-495a-9052-be5c4952e3af"
+      Hint: ButtonType
+      Value: "{FA3E379E-0874-4A2A-8F4D-568A03276BFC}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200714T053333Z
+    - ID: "3e8dc36e-707e-4e08-90f9-0f2ab1d9a152"
+      Hint: HeadingText
+      Value: $name
+    - ID: "4689b751-ae04-473f-91b4-a01a5f3421b9"
+      Hint: Text
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "798f6847-85fb-45d8-ac04-4cc53e9ccf21"
+      Hint: ButtonText
+      Value: 
+    - ID: "fea845f0-3c96-4093-9eaf-75612f822499"
+      Hint: ButtonSize
+      Value: "{BE0C8B20-43FD-41B7-AE00-133246971B24}"

@@ -1,0 +1,28 @@
+﻿---
+ID: "5375f8b9-da21-42e0-b0be-6f4532777e8e"
+Parent: "d9991bc0-1ea4-4fd7-a140-e2b3ed84d155"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/GeneralContent/Page Section/Page Section/Page Section/Style
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "query:./ancestor-or-self::*[@@templateid='{54A4D992-35AF-462F-895A-176B38B727CF}']//*[@@templateid='{00E6A82C-98B0-4C01-9B11-C628F855196E}']/Page Section Styles/*"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droplink
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Style of the page section
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T232222Z

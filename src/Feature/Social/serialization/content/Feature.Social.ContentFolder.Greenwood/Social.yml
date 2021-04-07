@@ -1,0 +1,14 @@
+﻿---
+ID: "7a601008-704e-4db8-a80e-4bd8df7a2d08"
+Parent: "939a5993-ea69-4cc4-9dab-385b3fbbda8a"
+Template: "90c4b3d5-f2cb-4483-b9ab-8c95b93500c3"
+Path: /sitecore/content/Greenwood/Content/Social
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200713T010218Z

@@ -1,0 +1,25 @@
+﻿---
+ID: "6f441d1b-4f3b-41e4-9363-27213e699e48"
+Parent: "52d47832-30f7-4a6b-b812-60aefa5bc238"
+Template: "52d47832-30f7-4a6b-b812-60aefa5bc238"
+Path: /sitecore/templates/Project/Campaign/Pages/LandingPage/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {28A4F971-F17D-4544-9830-26F50997BF40}
+    {52D47832-30F7-4A6B-B812-60AEFA5BC238}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T014002Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

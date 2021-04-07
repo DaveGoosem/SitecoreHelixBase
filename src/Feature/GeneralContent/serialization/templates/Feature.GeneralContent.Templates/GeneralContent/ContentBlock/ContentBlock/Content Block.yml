@@ -1,0 +1,14 @@
+﻿---
+ID: "00dfd9d7-3a10-4900-9e3b-44133b9a0514"
+Parent: "9ff66f2b-9499-47d9-937f-d6f4de4f21bc"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/GeneralContent/ContentBlock/ContentBlock/Content Block
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T005313Z

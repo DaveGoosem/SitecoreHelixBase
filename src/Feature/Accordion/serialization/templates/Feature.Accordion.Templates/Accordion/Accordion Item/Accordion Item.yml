@@ -1,0 +1,14 @@
+﻿---
+ID: "a3a40907-2a26-4d59-93ac-23eba1519b11"
+Parent: "077024c4-4206-4fc6-8751-f2b7417d7270"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Accordion/Accordion Item/Accordion Item
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20200716T042353:637304702338229014Z"

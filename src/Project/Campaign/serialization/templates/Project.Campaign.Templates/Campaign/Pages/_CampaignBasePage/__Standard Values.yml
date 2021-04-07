@@ -1,0 +1,65 @@
+﻿---
+ID: "706e7e14-f8dc-4c82-8553-b2a91654c541"
+Parent: "e79c7ca5-fc0c-41c5-aa9c-756a99faab4d"
+Template: "e79c7ca5-fc0c-41c5-aa9c-756a99faab4d"
+Path: /sitecore/templates/Project/Campaign/Pages/_CampaignBasePage/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+            l="{69ED55C0-1A0B-419B-A4AC-FC5A761FD0F2}">
+            <r
+              ds="{E36E6399-74C0-4451-A2C5-258163314953}"
+              id="{F2919029-2D0D-4DEB-A68C-EE9348E4EAE9}"
+              ph="/footer/footerAfterNav"
+              uid="{6621183B-1419-47F5-A3B0-34F6CC898E8A}" />
+            <r
+              ds="{823370F2-0C94-45F4-AAF2-4BC4C48950EC}"
+              id="{50C42105-14C2-4D17-AD43-DA80934DD801}"
+              ph="/header/headerContainer2"
+              uid="{66427EA3-D9E8-4578-AB6E-2F4928A730D4}" />
+            <r
+              ds="{70B0976B-16C5-4B05-9C5D-198C39E00A6E}"
+              id="{50C42105-14C2-4D17-AD43-DA80934DD801}"
+              ph="/header/headerContainer1"
+              uid="{FE5F499E-6536-442B-91A3-A7C09E8EDFA1}" />
+            <r
+              ds="{679A0584-0806-4322-9E11-DB4D3C91AC89}"
+              id="{AB0663A2-F15A-4C38-983D-9C81A48CC7B6}"
+              ph="header"
+              uid="{7DE2FAA9-8034-4B9E-AA8B-4C6A79A03F32}" />
+            <r
+              ds="{463891F7-C4DE-4AF9-8F5E-33609EBC9D7A}"
+              id="{C8151CC1-1E44-459B-B7F4-E0B161317A09}"
+              ph="main"
+              uid="{1DC910DF-97AD-4DB5-AD90-09B862428C4F}" />
+            <r
+              ds="{25AE41BD-A270-4B13-992C-B7FCC482F030}"
+              id="{C08E910F-366E-42A3-B316-F4AED38106E9}"
+              par=""
+              ph="footer"
+              uid="{40E65DB0-C900-461F-9F9E-43A8EBB99324}" />
+            <r
+              ds=""
+              id="{44FFF2AF-72CA-4417-9EBE-619E1CFFD622}"
+              par=""
+              ph="head"
+              uid="{B24D1D17-BAF5-403C-9696-35422913EB6C}" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T014334Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

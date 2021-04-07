@@ -1,0 +1,28 @@
+﻿---
+ID: "d77ca43b-71a5-4b89-b747-3eb5bceb99c1"
+Parent: "d9991bc0-1ea4-4fd7-a140-e2b3ed84d155"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/GeneralContent/Page Section/Page Section/Page Section/LayoutStyle
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: /sitecore/content/Global Settings/Page Section Layout Styles
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droplink
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: "Layout Type [Expand Left and Right will enable left and right placeholders and allow you to have your content fill the left of right side all the way to the edge of the page]"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T232921Z

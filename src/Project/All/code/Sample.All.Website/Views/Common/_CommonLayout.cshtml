@@ -1,0 +1,37 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sample.Feature.Analytics.Extensions
+
+@*
+    @RenderSection("CustomStyles", false) - allows us to specify the custom styles we want included in the solution. Any "common" styles should go into this base layout.
+    @RenderSection("CustomTopScripts", false) - Is to allow a child layout to add other scripts that will not fit into the definition above.
+    @RenderBody() - Renders the child layout into  where this method is called.
+    @RenderSection("CustomBottomScripts", false) - Is to allow a child layout to add other scripts that will not fit into the definition above.
+*@
+
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html class="no-js" lang="@Sitecore.Context.Language.CultureInfo.TwoLetterISOLanguageName">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/images/G8.ico" />
+    @RenderSection("HeadSection", false)
+    @RenderSection("CustomStyles", false)
+    @RenderSection("CustomTopScripts", false)
+    @*VisitorIdentification enables sitecore tracking: https://doc.sitecore.com/developers/91/sitecore-experience-platform/en/enabling-tracking.html*@
+    @Html.Sitecore().VisitorIdentification()
+    @Html.Raw(AnalyticsExtensions.GetHeadScripts())
+</head>
+<body>
+    @RenderBody()
+
+    @Html.Raw(AnalyticsExtensions.GetBodyScripts())
+    @RenderSection("CustomBottomScripts", false)
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿---
+ID: "04f9228b-a0b8-4e2b-b2af-dfe851b482a6"
+Parent: "b0a0a430-b141-4151-ab02-d5cecf21a1d6"
+Template: "b0a0a430-b141-4151-ab02-d5cecf21a1d6"
+Path: /sitecore/templates/Feature/Tile/Tile Icon/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200714T061329Z
+    - ID: "58bd1ea2-4838-4fd2-855c-13160f956acd"
+      Hint: Icon
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

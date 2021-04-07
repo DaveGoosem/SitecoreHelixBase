@@ -1,0 +1,21 @@
+﻿---
+ID: "30d5b3d4-6960-4abe-bb78-5ef894614106"
+Parent: "609031f5-0732-45e4-b146-ee1a08a5dea9"
+Template: "609031f5-0732-45e4-b146-ee1a08a5dea9"
+Path: "/sitecore/templates/Feature/GeneralContent/Page Section/Page Section Decor-Sides/__Standard Values"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T235830Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "83cdc47e-2d17-47ee-85fc-5ff9deb68f1c"
+      Hint: PageSectionDecorSides
+      Value: $name

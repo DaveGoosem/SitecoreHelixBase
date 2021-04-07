@@ -1,0 +1,19 @@
+﻿@model Sample.Feature.Navigation.Models.NavigationItems
+
+@if (Model != null)
+{
+    <ul class="header__desktop-bottom-link-list">
+        @*LEVEL 1*@
+        @foreach (var navItem in Model.NavItems)
+        {
+            if (navItem.NavDisplayInNav)
+            {
+                //assign the top level specific class to the link element
+                navItem.LinkItemCssClass = "header__desktop-bottom-link";
+                <li class="header__desktop-bottom-link-item">
+                    @Html.Partial("~/Views/Feature/Navigation/_NavigationItem.cshtml", navItem)
+                </li>
+            }
+        }
+    </ul>
+}

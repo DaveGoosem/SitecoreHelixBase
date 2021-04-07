@@ -1,0 +1,21 @@
+﻿---
+ID: "07222dbe-696c-432e-a0ca-b0829956a918"
+Parent: "840c7d43-6304-4220-a314-3a7bf49995f4"
+Template: "b0a0a430-b141-4151-ab02-d5cecf21a1d6"
+Path: /sitecore/content/Greenwood/Settings/Tile Icons/Activities Icon
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200714T061749Z
+    - ID: "58bd1ea2-4838-4fd2-855c-13160f956acd"
+      Hint: Icon
+      Value: 4

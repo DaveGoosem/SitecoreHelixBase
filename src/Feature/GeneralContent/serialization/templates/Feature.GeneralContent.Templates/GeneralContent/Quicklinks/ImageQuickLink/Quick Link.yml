@@ -1,0 +1,14 @@
+﻿---
+ID: "e9806334-d203-4970-ba9c-07e38b85cfb3"
+Parent: "8888e5de-2933-4007-baf5-d710af2bd7e8"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/GeneralContent/Quicklinks/ImageQuickLink/Quick Link
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200302T065240Z

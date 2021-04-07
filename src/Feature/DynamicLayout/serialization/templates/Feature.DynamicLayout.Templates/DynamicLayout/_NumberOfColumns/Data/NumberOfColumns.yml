@@ -1,0 +1,21 @@
+﻿---
+ID: "25450d7d-2210-4e54-823b-e815cdf4224d"
+Parent: "b3ab259a-9d10-489f-a170-7d4cd315fdcf"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/DynamicLayout/_NumberOfColumns/Data/NumberOfColumns
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Integer
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T044433Z

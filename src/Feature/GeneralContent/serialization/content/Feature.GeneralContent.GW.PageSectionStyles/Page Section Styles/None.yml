@@ -1,0 +1,17 @@
+﻿---
+ID: "c267ed90-15eb-4a16-8a91-55ba3d9d92e1"
+Parent: "0a304311-a230-42c1-bd74-d542d5ca209c"
+Template: "5b401633-c2d1-49bc-94a7-2b759bf0d0a2"
+Path: /sitecore/content/Greenwood/Settings/Page Section Styles/None
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: normal
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T062755Z

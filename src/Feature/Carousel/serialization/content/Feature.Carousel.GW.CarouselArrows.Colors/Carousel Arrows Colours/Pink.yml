@@ -1,0 +1,17 @@
+﻿---
+ID: "334c07e3-7f6b-4667-8f48-64408af24dc5"
+Parent: "10879200-2c23-4fbd-83d7-66ca0f1d78ab"
+Template: "4897fc07-fca2-4edb-ba59-fa9816c0816e"
+Path: /sitecore/content/Greenwood/Settings/Carousel Arrows Colours/Pink
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: secondary
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200717T062256Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "e5d5e1cb-5f5b-4d33-831c-81c48831f497"
+Parent: "b206c6c0-78c6-45dc-82f6-6dbe9d574594"
+Template: "ec0b1fd0-b5cd-4155-908c-b8c73522c02f"
+Path: /sitecore/content/Greenwood/Content/Navigation/Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200630T005557Z

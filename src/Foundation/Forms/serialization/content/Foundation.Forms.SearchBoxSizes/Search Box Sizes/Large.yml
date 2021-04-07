@@ -1,0 +1,17 @@
+﻿---
+ID: "397b59c4-bd51-4eea-b03c-038d8fcde384"
+Parent: "bd1cdc90-6f28-44c3-8dca-a397cdd341e2"
+Template: "2d94476a-1192-409d-bba8-e1caa9dc3d72"
+Path: /sitecore/content/Global Settings/Search Box Sizes/Large
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: large
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T054920Z

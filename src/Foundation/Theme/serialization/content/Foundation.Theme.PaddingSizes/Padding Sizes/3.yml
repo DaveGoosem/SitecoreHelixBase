@@ -1,0 +1,17 @@
+﻿---
+ID: "9ccd3053-02ff-4271-b1fb-40c836c25e6e"
+Parent: "b1d70098-c340-4219-bad1-cc6d033411a6"
+Template: "2d94476a-1192-409d-bba8-e1caa9dc3d72"
+Path: /sitecore/content/Global Settings/Padding Sizes/3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: 3
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T230821Z

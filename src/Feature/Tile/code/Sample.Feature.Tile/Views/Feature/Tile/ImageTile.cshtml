@@ -1,0 +1,18 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+@model Sample.Feature.Tile.Models.IImageTile
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    using (Html.Glass().BeginEditFrame(Model, "Edit Tile", x => x.Image, x => x.TileLink, x => x.HeadingText))
+    {
+        <section class="tile">
+            @using (Html.Glass().BeginRenderLink(x => x.TileLink, new { @class = "tile__image-wrapper js-content-modal__hook" }, isEditable: true))
+            {
+                @Html.Glass().Editable(x => x.Image, new { @class = "tile__image img-fluid" })
+                <h3 class="tile__image-heading">
+                    @Html.Glass().Editable(x => x.HeadingText)
+                </h3>
+            }
+        </section>
+    }
+}

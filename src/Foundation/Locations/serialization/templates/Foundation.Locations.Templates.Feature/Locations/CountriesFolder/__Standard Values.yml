@@ -1,0 +1,25 @@
+﻿---
+ID: "34598d03-7f86-4624-a7b4-a2772caf4db9"
+Parent: "a583a529-8549-4de7-bbbb-507e7f638469"
+Template: "a583a529-8549-4de7-bbbb-507e7f638469"
+Path: /sitecore/templates/Foundation/Locations/CountriesFolder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {A583A529-8549-4DE7-BBBB-507E7F638469}
+    {61DD9945-D88D-4E06-8413-6BE15099B379}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191219T054257Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

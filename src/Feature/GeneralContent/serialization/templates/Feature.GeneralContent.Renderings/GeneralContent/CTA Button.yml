@@ -1,0 +1,35 @@
+﻿---
+ID: "52b4d9bb-87a2-460f-90bf-9293b9815407"
+Parent: "9939ab6b-8b5b-4da9-8b80-29f0e0e664e4"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Feature/GeneralContent/CTA Button
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/GeneralContent/CTAButton/CTAButton
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:./ancestor-or-self::*[@@templateid='{54A4D992-35AF-462F-895A-176B38B727CF}']//*[@@templateid='{A716F668-2462-4638-A737-A7CDE235E0D7}']|./LocalContent"
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: CTAButton
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: GeneralContent
+- ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
+  Hint: Enable Datasource Query
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200225T051016Z
+    - ID: "971c3795-ffba-41e7-8606-f959fe5eed88"
+      Hint: Supports Local Datasource
+      Type: Checkbox
+      Value: 1

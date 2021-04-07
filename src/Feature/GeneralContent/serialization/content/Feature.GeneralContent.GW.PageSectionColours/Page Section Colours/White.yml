@@ -1,0 +1,17 @@
+﻿---
+ID: "4356b1cd-e554-4d2e-b536-58bc75e0055c"
+Parent: "1a9997d6-c953-4bc8-9c40-8c93cef795d7"
+Template: "4897fc07-fca2-4edb-ba59-fa9816c0816e"
+Path: /sitecore/content/Greenwood/Settings/Page Section Colours/White
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: normal
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T062857Z

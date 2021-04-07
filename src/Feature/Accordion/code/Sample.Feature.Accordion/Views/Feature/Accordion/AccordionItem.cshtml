@@ -1,0 +1,21 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+
+@model Sample.Feature.Accordion.Models.IAccordionItem
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    <div class="accordion__item">
+        <a class="accordion__link js-accordion-trigger" href="javascript:">
+            <div class="accordion__header">
+                <span class="accordion__header-text">
+                    @Html.Glass().Editable(x => x.AccordionHeaderText)
+                </span>
+                <div class="accordion__icon accordion__icon--plusminus js-accordion-icon"></div>
+            </div>
+        </a>
+        <div class="accordion__body js-accordion-body">
+            @Html.Glass().Editable(x => x.AccordionBodyText)
+            @Html.Sitecore().DynamicPlaceholder("accordion-body")
+        </div>
+    </div>
+}

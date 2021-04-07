@@ -1,0 +1,17 @@
+﻿---
+ID: "32266a03-c067-43e3-9d1a-3ba43c790457"
+Parent: "4d4332c1-86a6-4f91-801b-6a2741bc6347"
+Template: "609031f5-0732-45e4-b146-ee1a08a5dea9"
+Path: "/sitecore/content/Greenwood/Settings/Page Section Decor-Sides/Rain Cloud Icons"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200708T000111Z
+    - ID: "83cdc47e-2d17-47ee-85fc-5ff9deb68f1c"
+      Hint: PageSectionDecorSides
+      Value: tertiary

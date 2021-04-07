@@ -1,0 +1,17 @@
+﻿---
+ID: "da053efb-ad5f-44ec-bf2e-4c457a37faed"
+Parent: "3f2714b6-db16-4b10-8bf7-3fdb9cfc9b59"
+Template: "5b401633-c2d1-49bc-94a7-2b759bf0d0a2"
+Path: /sitecore/content/Global Settings/Page Section Layout Styles/Expand Right
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: "fluid-right"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T233045Z

@@ -1,0 +1,25 @@
+﻿---
+ID: "440b9ee2-2cfa-425d-bdd4-f70197fecabc"
+Parent: "ee368a36-d2e0-4694-b33c-6e0badf9c1d9"
+Template: "ee368a36-d2e0-4694-b33c-6e0badf9c1d9"
+Path: /sitecore/templates/Feature/GeneralContent/ContentBlock/ContentBlockFolder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {EE368A36-D2E0-4694-B33C-6E0BADF9C1D9}
+    {9FF66F2B-9499-47D9-937F-D6F4DE4F21BC}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T014620Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,25 @@
+﻿---
+ID: "fe11668e-c594-46ba-b2fb-8029e6ba0c38"
+Parent: "c7335c2d-9f03-43f1-b5a5-6e8c696c056f"
+Template: "c7335c2d-9f03-43f1-b5a5-6e8c696c056f"
+Path: /sitecore/templates/Feature/DynamicLayout/DynamicLayoutFolder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {C7335C2D-9F03-43F1-B5A5-6E8C696C056F}
+    {06FFB06F-4F74-48EA-99EF-1EF6B595A976}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T052700Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

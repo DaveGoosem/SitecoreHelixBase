@@ -1,0 +1,14 @@
+﻿---
+ID: "e51cf358-d525-4157-8d3f-c0594a5f1dac"
+Parent: "3c0c1424-5ae0-4901-b017-a5c557afda14"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Theme/_themeBase/Setting
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T041329Z

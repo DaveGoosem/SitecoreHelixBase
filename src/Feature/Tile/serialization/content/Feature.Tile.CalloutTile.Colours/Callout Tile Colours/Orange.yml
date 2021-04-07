@@ -1,0 +1,17 @@
+﻿---
+ID: "8a140fba-7c19-4f93-800e-d770c61574d9"
+Parent: "d3b87b6d-b121-40d9-addf-9fd6b7145a15"
+Template: "4897fc07-fca2-4edb-ba59-fa9816c0816e"
+Path: /sitecore/content/Greenwood/Settings/Callout Tile Colours/Orange
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: orange
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T035259Z

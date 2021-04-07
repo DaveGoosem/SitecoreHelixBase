@@ -1,0 +1,36 @@
+﻿---
+ID: "25f00ef7-ef53-4305-9c49-5f054b323a4f"
+Parent: "d537ea73-95ec-49e1-991a-11ef8a998435"
+Template: "d7cca97c-60f3-49b0-a3a3-4e5e521918e9"
+Path: "/sitecore/content/Global Content/Locations/Australian Locations/5723 - Coober Pedy"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "042b6a31-dbdb-431e-9d08-e5adfad1551b"
+      Hint: State
+      Value: SA
+    - ID: "142a68eb-6950-47ba-9f0e-23275f3e25ee"
+      Hint: Longitude
+      Value: 134.755
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190404T091629Z
+    - ID: "2e9e0f09-ba5e-464c-8b30-e4e1f2f02317"
+      Hint: Suburb
+      Value: Coober Pedy
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "8a817c6e-ace2-4acb-887f-f44ea41b1c5a"
+      Hint: Country
+      Value: "{AE7784FA-36FB-405A-BDFD-08960ADD75B6}"
+    - ID: "a1c43f11-b3a8-4281-b33d-52baff802685"
+      Hint: Latitude
+      Value: "-29.0141"
+    - ID: "d5cae13d-3b61-426e-8c35-8e9e8177dbb5"
+      Hint: Postcode
+      Value: 5723

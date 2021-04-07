@@ -1,0 +1,25 @@
+﻿---
+ID: "f245394c-5142-4085-809b-8370db51fe1a"
+Parent: "270a1f1f-bede-435e-8ef8-1a3a1fac01f0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/Forms/CTA Button/_CTAButton/Call To Action Button/StretchToFillContainer
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: "Stretch to fill container [Select this option if you want your button to span the full width of it's container]"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200720T034114Z

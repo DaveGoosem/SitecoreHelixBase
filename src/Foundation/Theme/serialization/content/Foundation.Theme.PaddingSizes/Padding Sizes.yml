@@ -1,0 +1,13 @@
+﻿---
+ID: "b1d70098-c340-4219-bad1-cc6d033411a6"
+Parent: "4d3867ae-fadd-49cf-a741-1cf4497343d6"
+Template: "4393d027-2bbe-44ca-a66f-c06a51449e29"
+Path: /sitecore/content/Global Settings/Padding Sizes
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Value: "20200720T060711:637308220317278634Z"

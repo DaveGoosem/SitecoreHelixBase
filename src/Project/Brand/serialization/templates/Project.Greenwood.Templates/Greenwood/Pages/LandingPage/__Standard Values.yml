@@ -1,0 +1,114 @@
+﻿---
+ID: "036ea89b-fa3c-4e7f-a1f1-4d4d673d49b7"
+Parent: "1ccb09d7-6f47-4408-84c9-1cad4725f949"
+Template: "1ccb09d7-6f47-4408-84c9-1cad4725f949"
+Path: /sitecore/templates/Project/Greenwood/Pages/LandingPage/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {1CCB09D7-6F47-4408-84C9-1CAD4725F949}
+    {ECA558A5-9CDB-4C2F-A8B2-335D2A797743}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+            l="{426A16DB-50E7-4F53-91C5-69E539B3D532}">
+            <r
+              ds="{BE7B152E-C698-43C3-9197-B49AE9EACE7D}"
+              id="{F2919029-2D0D-4DEB-A68C-EE9348E4EAE9}"
+              par=""
+              ph="footerAfterNav2"
+              uid="{6621183B-1419-47F5-A3B0-34F6CC898E8A}" />
+            <r
+              ds="{6A3E9095-6AA8-4BDB-941B-ADC1C88D5FC5}"
+              id="{52B4D9BB-87A2-460F-90BF-9293B9815407}"
+              par=""
+              ph="headerContainer2"
+              uid="{66427EA3-D9E8-4578-AB6E-2F4928A730D4}" />
+            <r
+              ds="{5E83A164-7B8D-48AA-9A87-3940A5E1D9AF}"
+              id="{52B4D9BB-87A2-460F-90BF-9293B9815407}"
+              par=""
+              ph="headerContainer1"
+              uid="{FE5F499E-6536-442B-91A3-A7C09E8EDFA1}" />
+            <r
+              ds="{2E62C0DE-84A3-498A-8C39-636FA50C7D32}"
+              id="{EA4CB365-37A0-47C5-B092-B95CBF9E3E74}"
+              par=""
+              ph="header"
+              uid="{A106F690-A0FF-4B63-854D-1A6C31AA9646}" />
+            <r
+              ds="{9FA3E5F1-9221-4793-B44A-DB3E11E5CC53}"
+              id="{AB0663A2-F15A-4C38-983D-9C81A48CC7B6}"
+              par=""
+              ph="header"
+              uid="{7DE2FAA9-8034-4B9E-AA8B-4C6A79A03F32}" />
+            <r
+              ds="{463891F7-C4DE-4AF9-8F5E-33609EBC9D7A}"
+              id="{C8151CC1-1E44-459B-B7F4-E0B161317A09}"
+              ph="main"
+              uid="{1DC910DF-97AD-4DB5-AD90-09B862428C4F}" />
+            <r
+              ds="{4D0E8A12-66B3-4915-B626-EC5CC63AA7E7}"
+              id="{C08E910F-366E-42A3-B316-F4AED38106E9}"
+              par=""
+              ph="footerSecondary"
+              uid="{40E65DB0-C900-461F-9F9E-43A8EBB99324}" />
+            <r
+              ds=""
+              id="{44FFF2AF-72CA-4417-9EBE-619E1CFFD622}"
+              par=""
+              ph="head"
+              uid="{B24D1D17-BAF5-403C-9696-35422913EB6C}" />
+            <r
+              ds="{5E83A164-7B8D-48AA-9A87-3940A5E1D9AF}"
+              id="{52B4D9BB-87A2-460F-90BF-9293B9815407}"
+              par=""
+              ph="mobileHeaderContainer1"
+              uid="{90DAA729-99C8-45C9-B7C9-100688CCA24B}" />
+            <r
+              ds="{9EC6C8BD-545F-4A7D-BB7F-4C09927B40E6}"
+              id="{2FA6EB62-4510-4407-9F98-70CE08AEDDE1}"
+              par=""
+              ph="headerContainer3"
+              uid="{C887A37D-E941-41F8-9809-B8A5A7D3A0DA}" />
+            <r
+              id="{5D42D0EB-7782-498D-813D-29B617135735}"
+              ph="nav"
+              uid="{FD130DD0-7055-46D4-BCAA-D9D640426538}" />
+            <r
+              id="{53C8F437-E4E5-44F5-80EA-E9E59EA81F91}"
+              ph="mobileNav"
+              uid="{53D209CD-3F59-42ED-B594-1E97E6F228BD}" />
+            <r
+              ds="{868D3511-02F9-4C97-BB5B-F9FA57FEFACB}"
+              id="{FCF84222-AA8F-4BFB-95AA-945228DD0C5F}"
+              par=""
+              ph="footer"
+              uid="{F3779178-01BD-4BF0-B469-127115247D49}" />
+            <r
+              ds="{30BC61BC-A18B-47E7-9BAE-2265CAA9F853}"
+              id="{52B4D9BB-87A2-460F-90BF-9293B9815407}"
+              par=""
+              ph="footerAfterNav1"
+              uid="{96AA79EE-8866-40DB-907F-88DDF46BD2D7}" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T014002Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

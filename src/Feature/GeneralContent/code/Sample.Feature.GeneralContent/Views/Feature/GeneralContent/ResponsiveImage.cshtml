@@ -1,0 +1,26 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+
+@model Sample.Feature.GeneralContent.Models.IResponsiveImage
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    using (Html.Glass().BeginEditFrame(Model, "Edit Responsive Image", x => x.DesktopImage, x => x.MobileImage, x => x.ShouldFillParent, x => x.KeepMinHeight))
+    {
+        var desktopImageSrc = Model.DesktopImage != null ? Model.DesktopImage.Src : "";
+        var mobileImageSrc = Model.MobileImage != null ? Model.MobileImage.Src : "";
+        var imageCssClass = "responsive-image  js-responsive-image";
+        imageCssClass += Model.ShouldFillParent ? " js-use-background-image" : "";
+        imageCssClass += Model.KeepMinHeight ? " responsive-image--keep-min-height" : "";
+
+        if (Html.Glass().IsInEditingMode)
+        {
+            <span style="font-size: 10px"><i>Below is the Desktop Image only. Click the 'edit' responsive image option to manage both desktop and mobile images</i></span>
+            @Html.Glass().Editable(x => x.DesktopImage, new { @class = imageCssClass })
+        }
+        else
+        {
+            <img class="@imageCssClass" src="" data-desktop-src="@desktopImageSrc" data-mobile-src="@mobileImageSrc" />
+        }
+
+    }
+}

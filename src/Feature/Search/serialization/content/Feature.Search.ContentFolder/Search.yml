@@ -1,0 +1,14 @@
+﻿---
+ID: "50d0f56a-a44f-4654-9837-72df79f068f4"
+Parent: "939a5993-ea69-4cc4-9dab-385b3fbbda8a"
+Template: "223503fe-e241-4727-a6a8-d3d29c95bfb8"
+Path: /sitecore/content/Greenwood/Content/Search
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200709T024318Z

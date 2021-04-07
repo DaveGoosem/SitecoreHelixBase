@@ -1,0 +1,25 @@
+﻿---
+ID: "f75abfd5-6acf-4164-8474-99261b7ea1b7"
+Parent: "a716f668-2462-4638-a737-a7cde235e0d7"
+Template: "a716f668-2462-4638-a737-a7cde235e0d7"
+Path: /sitecore/templates/Feature/GeneralContent/CTAButton/CTA Button Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {A716F668-2462-4638-A737-A7CDE235E0D7}
+    {5DAE156F-FEC0-4C49-A0D4-7FF9A45A83BC}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T014620Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

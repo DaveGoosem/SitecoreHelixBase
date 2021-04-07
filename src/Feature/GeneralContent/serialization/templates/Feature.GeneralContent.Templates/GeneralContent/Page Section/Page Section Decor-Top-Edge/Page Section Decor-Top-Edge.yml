@@ -1,0 +1,14 @@
+﻿---
+ID: "34d54782-f8f0-48aa-a447-98f9c49730ee"
+Parent: "0859c065-b7eb-48d0-a86f-6fee9d3bb4f8"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: "/sitecore/templates/Feature/GeneralContent/Page Section/Page Section Decor-Top-Edge/Page Section Decor-Top-Edge"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T234132Z

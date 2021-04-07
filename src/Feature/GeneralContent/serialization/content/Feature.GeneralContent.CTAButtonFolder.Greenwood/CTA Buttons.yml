@@ -1,0 +1,14 @@
+﻿---
+ID: "dd775957-8a74-4295-a419-dc6b0aeb6819"
+Parent: "939a5993-ea69-4cc4-9dab-385b3fbbda8a"
+Template: "a716f668-2462-4638-a737-a7cde235e0d7"
+Path: /sitecore/content/Greenwood/Content/CTA Buttons
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200709T003112Z

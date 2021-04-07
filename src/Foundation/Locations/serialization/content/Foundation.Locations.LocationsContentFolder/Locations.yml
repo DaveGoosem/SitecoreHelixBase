@@ -1,0 +1,14 @@
+﻿---
+ID: "50b32085-6e90-4b0e-ad31-7999c581ef58"
+Parent: "6a1d2c40-5f06-44da-9dcf-c2766b388f2c"
+Template: "e0d87f01-5d83-44b6-b794-f6df2ce115b3"
+Path: /sitecore/content/Global Content/Locations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200210T042343Z

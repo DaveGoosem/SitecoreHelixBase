@@ -1,0 +1,38 @@
+﻿---
+ID: "b846b52e-1ebf-4bed-97b9-2d375df4783e"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "54a4d992-35af-462f-895a-176b38b727cf"
+Path: /sitecore/content/Greenwood
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 250
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200629T061921Z
+    - ID: "33c8bd6e-d183-477d-a321-9ee505bc2e3f"
+      Hint: SitemapBaseDomain
+      Value: "http://g8.greenwood.local"
+    - ID: "5db97ef6-6ac3-4c2d-bbdd-9139796528db"
+      Hint: RobotsText
+      Value: |
+        User-agent: *
+        Allow: /
+        
+        Sitemap: http://g8.greenwood.local/sitemap.xml
+    - ID: "fe45e98c-ae21-4b8e-9584-09a5f4f4279a"
+      Hint: HeadScripts
+      Value: |
+        <!-- Google Tag Manager  --> 
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], 
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); 
+        })(window,document,'script','dataLayer','GTM-TESTONLY');</script> 
+        <!-- End Google Tag Manager --> 

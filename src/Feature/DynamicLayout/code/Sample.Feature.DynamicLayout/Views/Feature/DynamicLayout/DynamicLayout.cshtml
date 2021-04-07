@@ -1,0 +1,43 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sample.Feature.DynamicLayout.Models
+
+@model Sample.Feature.DynamicLayout.Models.IRow
+@if (Model != null || @Html.Glass().IsInEditingMode)
+{
+    string placeHolderName = "pcolumn";
+    int counter = 1;
+    string containerClass = "container";
+    if (Model.RowIsFullWidth)
+    {
+        containerClass = string.Empty;
+    }
+
+    <div class="@containerClass">
+        <div class="row @Model.RowCssClass">
+            @{
+                string className = string.Empty;
+                foreach (IColumn col in Model.Children)
+                {
+                    if (counter > 0)
+                    {
+                        placeHolderName = "pcolumn" + counter;
+                    }
+
+                    className = string.Empty;
+                    className += string.IsNullOrEmpty(col.ColumnLG) ? string.Empty : ("col-lg-" + col.ColumnLG) + " ";
+                    className += string.IsNullOrEmpty(col.ColumnMD) ? string.Empty : ("col-md-" + col.ColumnMD) + " ";
+                    className += string.IsNullOrEmpty(col.ColumnSM) ? string.Empty : ("col-sm-" + col.ColumnSM) + " ";
+                    className += string.IsNullOrEmpty(col.ColumnXS) ? string.Empty : ("col-xs-" + col.ColumnXS) + " ";
+
+                    <div class="@col.ColumnCssClass @className">
+                        @Html.Sitecore().DynamicPlaceholder(placeHolderName)
+                    </div>
+
+                    counter++;
+                }
+            }
+        </div>
+    </div>
+}

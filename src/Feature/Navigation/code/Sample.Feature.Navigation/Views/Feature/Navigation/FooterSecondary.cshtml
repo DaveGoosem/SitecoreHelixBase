@@ -1,0 +1,29 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model Sample.Feature.Navigation.Models.IFooterSecondary
+
+@if (Model != null)
+{
+    <div class="footer__bottom-wrapper">
+        <div class="footer__copyright-area">
+            <span class="footer__copyright-area-text">
+                @Html.Raw(Model.FooterSecondaryCopyrightText)
+            </span>
+            <ul class="footer__copyright-area-link-list">
+                @if (Model.FooterSecondaryPages != null && Model.FooterSecondaryPages.Any())
+                {
+                    foreach (var page in Model.FooterSecondaryPages)
+                    {
+                        //we want to force the item to display in navigation as it's populated by a seperate TreeList field on the datasource item
+                        page.NavDisplayInNav = true;
+                        page.LinkItemCssClass = "footer__copyright-area-link";
+                        <li class="footer__copyright-area-link-item">
+                            @Html.Partial("~/Views/Feature/Navigation/_NavigationItem.cshtml", page)
+                        </li>
+                    }
+                }               
+
+            </ul>
+        </div>
+        @Html.Glass().Editable(x => x.FooterSecondaryDecorImage, new { @class = "footer__decor-image" })
+    </div>
+}

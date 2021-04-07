@@ -1,0 +1,56 @@
+﻿<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:role="http://www.sitecore.net/xmlconfig/role/" xmlns:search="http://www.sitecore.net/xmlconfig/search/">
+  <sitecore search:require="solr">
+
+    <!--Patch values for non-local environments to set the data folder and the Unicorn source folder-->
+    <sc.variable name="dataFolder">
+      <patch:attribute name="value">/App_Data</patch:attribute>
+    </sc.variable>
+    <!--Unicorn source folder-->
+    <sc.variable name="sourceFolder">
+      <patch:attribute name="value">/Unicorn</patch:attribute>
+    </sc.variable>
+
+
+    <!--Patch values to set the SOLR index core names to the Sample Prefixed values-->
+    <contentSearch>
+      <configuration type="Sitecore.ContentSearch.ContentSearchConfiguration, Sitecore.ContentSearch">
+        <indexes hint="list:AddIndex">
+          <index id="sitecore_master_index" role:require="Standalone or ContentManagement" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="core" patch:instead="param[@desc='core']">Sample_master_index</param>
+          </index>
+          <index id="sitecore_core_index" role:require="Standalone or ContentManagement" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="core" patch:instead="param[@desc='core']">Sample_core_index</param>
+          </index>
+          <index id="sitecore_web_index" role:require="Standalone or ContentDelivery or ContentManagement" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="core" patch:instead="param[@desc='core']">Sample_web_index</param>
+          </index>
+          <index id="sitecore_marketingdefinitions_master" role:require="Standalone or ContentManagement" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="core" patch:instead="param[@desc='core']">Sample_marketingdefinitions_master</param>
+          </index>
+          <index id="sitecore_marketingdefinitions_web" role:require="Standalone or ContentDelivery or ContentManagement" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="core" patch:instead="param[@desc='core']">Sample_marketingdefinitions_web</param>
+          </index>
+          <index id="sitecore_marketing_asset_index_master" role:require="Standalone or ContentManagement" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="core" patch:instead="param[@desc='core']">Sample_marketing_asset_index_master</param>
+          </index>
+          <index id="sitecore_marketing_asset_index_web" role:require="Standalone or ContentDelivery or ContentManagement" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="core" patch:instead="param[@desc='core']">Sample_marketing_asset_index_web</param>
+          </index>
+          <index id="sitecore_testing_index" role:require="Standalone or ContentManagement" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="core" patch:instead="param[@desc='core']">Sample_testing_index</param>
+          </index>
+          <index id="sitecore_suggested_test_index" role:require="Standalone or ContentManagement" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="core" patch:instead="param[@desc='core']">Sample_suggested_test_index</param>
+          </index>
+          <index id="sitecore_fxm_master_index" role:require="Standalone or ContentManagement" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="core" patch:instead="param[@desc='core']">Sample_fxm_master_index</param>
+          </index>
+          <index id="sitecore_fxm_web_index" role:require="Standalone or ContentDelivery or ContentManagement" type="Sitecore.ContentSearch.SolrProvider.SolrSearchIndex, Sitecore.ContentSearch.SolrProvider">
+            <param desc="core" patch:instead="param[@desc='core']">Sample_fxm_web_index</param>
+          </index>
+        </indexes>
+      </configuration>
+    </contentSearch>
+
+  </sitecore>
+</configuration>

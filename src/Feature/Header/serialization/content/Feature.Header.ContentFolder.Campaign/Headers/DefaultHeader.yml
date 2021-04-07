@@ -1,0 +1,26 @@
+﻿---
+ID: "679a0584-0806-4322-9e11-db4d3c91ac89"
+Parent: "0848558a-ddad-4f8c-8db7-18d4a713e2a3"
+Template: "d6342f16-de1c-4d97-b2b4-7879c791640e"
+Path: /sitecore/content/Campaign/Content/Headers/DefaultHeader
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b6e74c4-50c7-4f97-ad60-eea98e8ec36b"
+      Hint: HeaderLogoImage
+      Value: |
+        <image mediaid="{119F9EEF-37AD-4826-A9A9-1EF7DE10A72E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200306T013625Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "d274a81b-5c45-48ca-a55f-65cb5a5a0fd3"
+      Hint: HeaderLogoImageLink
+      Value: |
+        <link linktype="internal" querystring="" target="" id="{A28E07B0-E114-4592-A73E-9BD7A6D3233F}" />

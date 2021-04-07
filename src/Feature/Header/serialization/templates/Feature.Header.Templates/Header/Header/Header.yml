@@ -1,0 +1,14 @@
+﻿---
+ID: "22ed3f4d-c2ff-4fbb-89b7-033f099bd59b"
+Parent: "d6342f16-de1c-4d97-b2b4-7879c791640e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Header/Header/Header
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200306T011340Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "4d4332c1-86a6-4f91-801b-6a2741bc6347"
+Parent: "3540bb3c-a763-4868-a5ba-987a6c04d3ff"
+Template: "9bebcce3-0935-464c-8150-2b19e23c7fae"
+Path: "/sitecore/content/Greenwood/Settings/Page Section Decor-Sides"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T235656Z

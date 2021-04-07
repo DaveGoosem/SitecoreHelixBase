@@ -1,0 +1,27 @@
+﻿---
+ID: "ae7784fa-36fb-405a-bdfd-08960add75b6"
+Parent: "aa651507-362e-4171-8eb9-08e13ea33e3b"
+Template: "61dd9945-d88d-4e06-8413-6be15099b379"
+Path: /sitecore/content/Global Content/Countries/Australia
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00599c16-3f1e-4bc9-b527-9bd1e16dcbee"
+      Hint: ISO2Code
+      Value: AU
+    - ID: "0b59a1d6-3547-4e37-924c-b03acfe415e1"
+      Hint: ISO3Code
+      Value: AUS
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190318T021602Z
+    - ID: "558a399f-42de-4188-b74a-733a20a145f7"
+      Hint: Name
+      Value: Australia
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

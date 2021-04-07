@@ -1,0 +1,26 @@
+﻿---
+ID: "f214c70c-d302-4957-be17-8a81314aef67"
+Parent: "1a6f0f53-f07b-4d4e-897d-4d59b90aef99"
+Template: "f3c26577-dfb4-4778-b985-fb8bef65c797"
+Path: /sitecore/content/Global Content/DynamicLayout/3 3 6 Full Width/Column 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T053407Z
+    - ID: "4975f362-938f-4517-aee8-25e95e73b5af"
+      Hint: ColumnXS
+      Value: 12
+    - ID: "5e0456fb-151a-4771-afc8-be6e55af50e1"
+      Hint: ColumnSM
+      Value: 12
+    - ID: "f3a4ae39-1d2e-4739-a401-d4a95d8e10f0"
+      Hint: ColumnLG
+      Value: 6
+    - ID: "f4c6162a-a86d-495a-8dbb-f2dce71890c4"
+      Hint: ColumnMD
+      Value: 6

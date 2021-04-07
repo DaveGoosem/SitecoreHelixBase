@@ -1,0 +1,59 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+
+@model Sample.Feature.Header.Models.IHeader
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    var desktopAlertBarClasses = "header__desktop-sticky--with-top-alert-bar";
+    var mobileAlertBarClasses = "header__mobile-sticky--with-top-alert-bar";
+    var headerDesktopClass = Sitecore.Context.PageMode.IsPreview || Sitecore.Context.PageMode.IsExperienceEditor ? "" : "header__desktop-sticky";
+
+    <section class="header">
+        <div class="@headerDesktopClass @(Model.IncludeAlertBarSpace ? desktopAlertBarClasses : string.Empty)">
+            <div class="container">
+                <div class="row">
+                    <div class="header__desktop-wrapper">
+                        @using (Html.Glass().BeginRenderLink(x => x.HeaderLogoImageLink, new { @class = "header__desktop-logo-link" }, isEditable: true))
+                        {
+                            @Html.Glass().Editable(x => x.HeaderLogoImage, new { @class = "header__desktop-logo-image" })
+                        }
+
+                        <div class="header__desktop-content-wrapper">
+                            <ul class="header__desktop-top-link-list">
+                                <li class="header__desktop-top-link-item">
+                                    @Html.Sitecore().Placeholder("headerContainer1")
+                                <li class="header__desktop-top-link-item">
+                                    @Html.Sitecore().Placeholder("headerContainer2")
+                                </li>
+                                <li class="header__desktop-top-link-item">
+                                    @Html.Sitecore().Placeholder("headerContainer3")
+                                </li>
+                            </ul>
+                            @Html.Sitecore().Placeholder("nav")
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__mobile-sticky @(Model.IncludeAlertBarSpace ? mobileAlertBarClasses : string.Empty)">
+            <div class="header__mobile-wrapper">
+                @using (Html.Glass().BeginRenderLink(x => x.HeaderLogoImageLink, new { @class = "header__mobile-logo-link" }, isEditable: true))
+                {
+                    @Html.Glass().Editable(x => x.HeaderLogoImage, new { @class = "header__mobile-logo-image" })
+                }
+
+                @Html.Sitecore().Placeholder("mobileHeaderContainer1")
+
+                <button class="header__mobile-button" data-toggle="collapse" data-target="#header__mobile-menu-collapse"
+                        aria-controls="header__mobile-menu-collapse" aria-expanded="false" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            @Html.Sitecore().Placeholder("mobileNav")
+        </div>
+    </section>
+
+
+
+
+}

@@ -1,0 +1,136 @@
+﻿---
+ID: "a28e07b0-e114-4592-a73e-9bd7a6d3233f"
+Parent: "1a0fd0d1-e016-4199-8478-444488ad2aaf"
+Template: "4e5c65e4-8a5d-42a0-ac5a-99d1cae0e81e"
+Path: /sitecore/content/Campaign/Home
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{75ABC149-3EDA-4CCE-8729-AF0B2C909CE7}"
+              p:before="*"
+              s:ds="{823370F2-0C94-45F4-AAF2-4BC4C48950EC}"
+              s:id="{50C42105-14C2-4D17-AD43-DA80934DD801}"
+              s:ph="/main/bannerDoubleRight" />
+            <r
+              uid="{DE5A4739-5F2D-4EF0-A323-64F1BCF21E32}"
+              p:after="r[@uid='{75ABC149-3EDA-4CCE-8729-AF0B2C909CE7}']"
+              s:ds="{70B0976B-16C5-4B05-9C5D-198C39E00A6E}"
+              s:id="{50C42105-14C2-4D17-AD43-DA80934DD801}"
+              s:ph="/main/bannerDoubleLeft" />
+            <r
+              uid="{FEFC4AF8-A909-4D88-A138-B7A5AA60FCF8}"
+              p:after="r[@uid='{DE5A4739-5F2D-4EF0-A323-64F1BCF21E32}']"
+              s:ds="{DF8ED747-C207-4AAE-8896-8B4DB3348EAE}"
+              s:id="{55AC512B-9BDE-4526-BACF-5A0757242234}"
+              s:ph="/main/pcolumn1-{51346CD3-BF8D-4672-B2CE-791326FBCB67}-0/pcolumn2-{CB7D41F6-7DA8-4737-9DD3-B862C0DCA9EA}-0/pcolumn2-{8AB1AF4C-4E79-4B5D-B99A-5170F32C26F7}-0" />
+            <r
+              uid="{1E50C345-5C2A-416B-B1D7-C2BBFDB2FE3C}"
+              p:after="r[@uid='{FEFC4AF8-A909-4D88-A138-B7A5AA60FCF8}']"
+              s:ds="{A4B3A50F-CEE2-4CA8-BA3E-B901236F10AF}"
+              s:id="{55AC512B-9BDE-4526-BACF-5A0757242234}"
+              s:ph="/main/pcolumn1-{51346CD3-BF8D-4672-B2CE-791326FBCB67}-0/pcolumn2-{CB7D41F6-7DA8-4737-9DD3-B862C0DCA9EA}-0/pcolumn1-{8AB1AF4C-4E79-4B5D-B99A-5170F32C26F7}-0" />
+            <r
+              uid="{2EBEDF48-5A04-4E27-8C13-A8EF3450E0C9}"
+              p:after="r[@uid='{1E50C345-5C2A-416B-B1D7-C2BBFDB2FE3C}']"
+              s:ds="{BFF61866-F93D-4306-B008-C4166787160A}"
+              s:id="{55AC512B-9BDE-4526-BACF-5A0757242234}"
+              s:ph="/main/pcolumn1-{51346CD3-BF8D-4672-B2CE-791326FBCB67}-0/pcolumn2-{CB7D41F6-7DA8-4737-9DD3-B862C0DCA9EA}-0/pcolumn1-{EAC7161C-188E-47EA-AF41-02064195DA2A}-0" />
+            <r
+              uid="{D1F9777C-EB61-46E8-BE75-5B808A3ABD97}"
+              p:after="r[@uid='{2EBEDF48-5A04-4E27-8C13-A8EF3450E0C9}']"
+              s:ds="{BD90D368-6E2B-43E4-832A-AA8F3A29DF20}"
+              s:id="{55AC512B-9BDE-4526-BACF-5A0757242234}"
+              s:ph="/main/pcolumn1-{51346CD3-BF8D-4672-B2CE-791326FBCB67}-0/pcolumn1-{CB7D41F6-7DA8-4737-9DD3-B862C0DCA9EA}-0" />
+            <r
+              uid="{EAC7161C-188E-47EA-AF41-02064195DA2A}"
+              p:after="r[@uid='{D1F9777C-EB61-46E8-BE75-5B808A3ABD97}']"
+              s:ds="{FC204295-A1E9-4C2E-889E-1C3F5322BADD}"
+              s:id="{C8151CC1-1E44-459B-B7F4-E0B161317A09}"
+              s:ph="/main/pcolumn1-{51346CD3-BF8D-4672-B2CE-791326FBCB67}-0/pcolumn2-{CB7D41F6-7DA8-4737-9DD3-B862C0DCA9EA}-0" />
+            <r
+              uid="{8AB1AF4C-4E79-4B5D-B99A-5170F32C26F7}"
+              p:after="r[@uid='{EAC7161C-188E-47EA-AF41-02064195DA2A}']"
+              s:ds="{7343F627-CC4D-4FAC-904B-D7AFA7569230}"
+              s:id="{C8151CC1-1E44-459B-B7F4-E0B161317A09}"
+              s:ph="/main/pcolumn1-{51346CD3-BF8D-4672-B2CE-791326FBCB67}-0/pcolumn2-{CB7D41F6-7DA8-4737-9DD3-B862C0DCA9EA}-0" />
+            <r
+              uid="{CB7D41F6-7DA8-4737-9DD3-B862C0DCA9EA}"
+              p:after="r[@uid='{8AB1AF4C-4E79-4B5D-B99A-5170F32C26F7}']"
+              s:ds="{7343F627-CC4D-4FAC-904B-D7AFA7569230}"
+              s:id="{C8151CC1-1E44-459B-B7F4-E0B161317A09}"
+              s:ph="/main/pcolumn1-{51346CD3-BF8D-4672-B2CE-791326FBCB67}-0" />
+            <r
+              uid="{CE204179-3D35-4D6C-935F-E6EFF223B733}"
+              p:after="r[@uid='{CB7D41F6-7DA8-4737-9DD3-B862C0DCA9EA}']"
+              s:ds="{3A316B3C-183A-4D12-92F4-0558DC427AE6}"
+              s:id="{129394B3-F4D5-40A7-91E8-C9FCC1AF8B2A}"
+              s:ph="main" />
+            <r
+              uid="{B427C2C0-16A2-4F3F-9E27-E142AF484F06}"
+              p:after="r[@uid='{CE204179-3D35-4D6C-935F-E6EFF223B733}']"
+              s:ds="{463891F7-C4DE-4AF9-8F5E-33609EBC9D7A}"
+              s:id="{C8151CC1-1E44-459B-B7F4-E0B161317A09}"
+              s:ph="main" />
+            <r
+              uid="{0B28A9B0-3185-429B-BBC6-1ECABFD4F816}"
+              p:after="r[@uid='{B427C2C0-16A2-4F3F-9E27-E142AF484F06}']"
+              s:ds="{3C269558-F9C8-49CE-B23C-0C4B59827293}"
+              s:id="{D48307F8-E1F9-4281-A1EB-0D7105DD78CC}"
+              s:ph="/main/pcolumn2-{BC89F262-B41E-4B86-B7D4-A90D49B4C868}-0" />
+            <r
+              uid="{65EA3D0C-B678-4B08-8177-2FEC81655244}"
+              p:after="r[@uid='{0B28A9B0-3185-429B-BBC6-1ECABFD4F816}']"
+              s:ds="{CAEC6F74-2079-42BD-82CF-D024967FC2F1}"
+              s:id="{D48307F8-E1F9-4281-A1EB-0D7105DD78CC}"
+              s:ph="/main/pcolumn1-{BC89F262-B41E-4B86-B7D4-A90D49B4C868}-0" />
+            <r
+              uid="{BC89F262-B41E-4B86-B7D4-A90D49B4C868}"
+              p:after="r[@uid='{B24D1D17-BAF5-403C-9696-35422913EB6C}']"
+              s:ds="{6E76A2D4-7EFA-4B27-93A0-36ADFDF10045}"
+              s:id="{C8151CC1-1E44-459B-B7F4-E0B161317A09}"
+              s:ph="main" />
+            <r
+              uid="{51346CD3-BF8D-4672-B2CE-791326FBCB67}"
+              p:after="*[1=2]"
+              s:ds="{463891F7-C4DE-4AF9-8F5E-33609EBC9D7A}"
+              s:id="{C8151CC1-1E44-459B-B7F4-E0B161317A09}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T014244Z
+    - ID: "278b5f94-15f4-4472-aa50-89277f8fc043"
+      Hint: MetaDescription
+      Value: G8 Campaign website
+    - ID: "346f94c5-5151-4feb-b75e-17392dc74eb9"
+      Hint: MetaTitle
+      Value: G8 Campaign
+    - ID: "4ae01c03-233f-4264-9fd8-234ebeb2dfc8"
+      Hint: NavTitle
+      Value: Home
+    - ID: "4ea02922-fd89-4e4a-ac82-20cba4ada091"
+      Hint: BrowserTitle
+      Value: G8 Campaign
+    - ID: "ba36ad7d-70ed-43cf-a0fc-454ac831f0d7"
+      Hint: MetaKeywords
+      Value: Campaign, test
+    - ID: "f2f7ed06-147f-43bf-9b3b-372c49421880"
+      Hint: MetaOpenGraphTitle
+      Value: G8 Campaign

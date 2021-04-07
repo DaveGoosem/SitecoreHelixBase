@@ -1,0 +1,14 @@
+﻿---
+ID: "3f2714b6-db16-4b10-8bf7-3fdb9cfc9b59"
+Parent: "4d3867ae-fadd-49cf-a741-1cf4497343d6"
+Template: "4393d027-2bbe-44ca-a66f-c06a51449e29"
+Path: /sitecore/content/Global Settings/Page Section Layout Styles
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T232950Z

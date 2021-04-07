@@ -1,0 +1,14 @@
+﻿---
+ID: "3540bb3c-a763-4868-a5ba-987a6c04d3ff"
+Parent: "b846b52e-1ebf-4bed-97b9-2d375df4783e"
+Template: "00e6a82c-98b0-4c01-9b11-c628f855196e"
+Path: /sitecore/content/Greenwood/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200629T061951Z

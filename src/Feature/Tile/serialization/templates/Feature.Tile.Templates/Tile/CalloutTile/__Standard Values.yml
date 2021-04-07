@@ -1,0 +1,24 @@
+﻿---
+ID: "2a7d6dcb-e9b6-4263-b7a3-250bedabbc96"
+Parent: "5d9858d8-4ce5-441d-bcb3-3b8619f91412"
+Template: "5d9858d8-4ce5-441d-bcb3-3b8619f91412"
+Path: /sitecore/templates/Feature/Tile/CalloutTile/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T035652Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b9667b9f-020f-40b9-be38-6eee14f361e2"
+      Hint: CalloutTitle
+      Value: $name
+    - ID: "e8d85e7c-59ca-4aa1-9223-aa3dae87fe76"
+      Hint: CalloutStyle
+      Value: "{B13342DF-7EDF-4D8D-ABA7-0E43D484AAD2}"

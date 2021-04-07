@@ -1,0 +1,14 @@
+﻿---
+ID: "09c0ee6e-b09b-4acb-8c10-b3e8e022e987"
+Parent: "3fa84433-7bed-4a6a-8325-818542cadd21"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Analytics/_sitemap/Sitemap
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191212T232016Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "b349cbbc-dc05-44ec-9da9-84dfcf994a74"
+Parent: "8a80e451-ba1e-4fdc-bd0e-1a4f1953d866"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/Forms/CTA Button
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200709T020235Z

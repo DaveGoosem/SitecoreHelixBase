@@ -1,0 +1,14 @@
+﻿---
+ID: "43e5f602-c70a-4250-b059-695c6b841cfc"
+Parent: "6b4b4c63-b0e6-4168-bec9-2d65999046a7"
+Template: "ee368a36-d2e0-4694-b33c-6e0badf9c1d9"
+Path: /sitecore/content/Campaign/Content/Content Blocks
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T014657Z

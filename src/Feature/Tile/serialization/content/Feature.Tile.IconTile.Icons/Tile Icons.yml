@@ -1,0 +1,14 @@
+﻿---
+ID: "840c7d43-6304-4220-a314-3a7bf49995f4"
+Parent: "3540bb3c-a763-4868-a5ba-987a6c04d3ff"
+Template: "22bda81a-4e68-402d-b4ad-475236f94f77"
+Path: /sitecore/content/Greenwood/Settings/Tile Icons
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200714T061359Z

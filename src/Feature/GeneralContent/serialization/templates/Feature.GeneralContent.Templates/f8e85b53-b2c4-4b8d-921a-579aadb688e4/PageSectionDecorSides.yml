@@ -1,0 +1,25 @@
+﻿---
+ID: "83cdc47e-2d17-47ee-85fc-5ff9deb68f1c"
+Parent: "f8e85b53-b2c4-4b8d-921a-579aadb688e4"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: "/sitecore/templates/Feature/GeneralContent/Page Section/Page Section Decor-Sides/Page Section Decor-Sides/PageSectionDecorSides"
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: "Page section decor-sides"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T234019Z

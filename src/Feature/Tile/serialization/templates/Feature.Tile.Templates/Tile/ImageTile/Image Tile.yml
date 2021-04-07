@@ -1,0 +1,14 @@
+﻿---
+ID: "43a0b967-0f61-4330-b36c-7ced2a6397bc"
+Parent: "b01afa76-33f5-4d3b-8bc8-634d152e28c9"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Tile/ImageTile/Image Tile
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T023332Z

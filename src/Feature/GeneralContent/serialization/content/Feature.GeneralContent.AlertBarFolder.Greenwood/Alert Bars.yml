@@ -1,0 +1,14 @@
+﻿---
+ID: "0599e924-0da6-41a8-85e7-4928af1b5fb0"
+Parent: "939a5993-ea69-4cc4-9dab-385b3fbbda8a"
+Template: "1fb3228d-04df-443c-a6bf-3925c860f996"
+Path: /sitecore/content/Greenwood/Content/Alert Bars
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200710T041912Z

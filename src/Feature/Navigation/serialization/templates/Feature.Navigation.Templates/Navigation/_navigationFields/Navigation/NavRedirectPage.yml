@@ -1,0 +1,25 @@
+﻿---
+ID: "56e7e342-5b07-4557-8c57-3f81f6b3bcaa"
+Parent: "84f1e4fc-7c85-46be-ade0-80f5c6fd8693"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Navigation/_navigationFields/Navigation/NavRedirectPage
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: General Link
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: "Redirect Page (note: If you supply a value here, this Nav item will redirect to the specified page or URL)"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191219T004224Z

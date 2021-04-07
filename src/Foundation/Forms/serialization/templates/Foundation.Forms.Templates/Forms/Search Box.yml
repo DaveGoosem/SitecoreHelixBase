@@ -1,0 +1,14 @@
+﻿---
+ID: "91eb4775-b1a8-4088-8b78-59a3cb673917"
+Parent: "8a80e451-ba1e-4fdc-bd0e-1a4f1953d866"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/Forms/Search Box
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200709T020241Z

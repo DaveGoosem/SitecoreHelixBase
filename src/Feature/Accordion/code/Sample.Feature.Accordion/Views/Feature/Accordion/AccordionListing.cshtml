@@ -1,0 +1,16 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+
+@model Sample.Feature.Accordion.Models.IAccordionListing
+
+@if(Html.Glass().IsInEditingMode)
+{
+    <p>Click here to edit Accordion Listing</p>
+}
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    <section class="accordion">
+        @Html.Sitecore().DynamicPlaceholder("accordion-listing")
+    </section>
+}
+

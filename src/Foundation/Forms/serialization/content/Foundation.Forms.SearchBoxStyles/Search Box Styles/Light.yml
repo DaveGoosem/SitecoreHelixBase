@@ -1,0 +1,17 @@
+﻿---
+ID: "2449d5ba-0973-42e8-9e7e-e2747e82c6ab"
+Parent: "c5aaede0-d93f-4649-8d12-6db411ad81e3"
+Template: "5b401633-c2d1-49bc-94a7-2b759bf0d0a2"
+Path: /sitecore/content/Global Settings/Search Box Styles/Light
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: light
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T051153Z

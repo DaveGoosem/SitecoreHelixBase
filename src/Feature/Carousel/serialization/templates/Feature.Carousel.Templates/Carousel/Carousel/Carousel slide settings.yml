@@ -1,0 +1,18 @@
+﻿---
+ID: "a357b284-bf69-4167-8d4e-8737fd705f29"
+Parent: "05b038af-fe53-46f8-90df-4b8c9d42bddc"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Carousel/Carousel/Carousel slide settings
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200717T062359Z

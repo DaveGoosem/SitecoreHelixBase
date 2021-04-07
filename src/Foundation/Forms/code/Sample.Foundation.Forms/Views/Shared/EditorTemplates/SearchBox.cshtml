@@ -1,0 +1,23 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+@model Sample.Foundation.Forms.Models.SearchBox
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    var searchBoxStyle = !string.IsNullOrEmpty(Model.SearchBoxStyle) ? Model.SearchBoxStyle : "dark";
+    var searchBoxSize = !string.IsNullOrEmpty(Model.SearchBoxSize) ? Model.SearchBoxSize : "small";    
+    var showIcon = Model.ShowIcon;
+    var iconClass = !string.IsNullOrEmpty(Model.CustomIconClass) ? Model.CustomIconClass : "fas fa-search";
+    var inputIconClass = string.Format("search-box__input--size-{0}-with-icon", searchBoxSize);
+    var inputClass = string.Format("search-box__input search-box__input--style-{0} search-box__input--size-{1} {2}", searchBoxStyle, searchBoxSize, showIcon ? inputIconClass : "");    
+
+    <section class="search-box">
+        @if (showIcon)
+        {
+            <i class="search-box__icon search-box__icon--style-@searchBoxStyle search-box__icon--size-@searchBoxSize @iconClass"></i>
+        }
+
+        <div class="search-box__input-container search-box__input-container--style-@searchBoxStyle search-box__input-container--size-@searchBoxSize">
+            <input class="@inputClass" type="text" placeholder="@Model.PlaceholderText" />
+        </div>
+    </section>
+}

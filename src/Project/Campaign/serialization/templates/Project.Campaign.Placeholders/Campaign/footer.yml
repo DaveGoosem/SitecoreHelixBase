@@ -1,0 +1,22 @@
+﻿---
+ID: "874ca386-b7df-4b8b-a4f5-bdfbd27c4cdd"
+Parent: "588600e1-0c5c-44de-8838-3c64a9fdeb61"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/Campaign/footer
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: footer
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: "{C08E910F-366E-42A3-B316-F4AED38106E9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191128T063401Z

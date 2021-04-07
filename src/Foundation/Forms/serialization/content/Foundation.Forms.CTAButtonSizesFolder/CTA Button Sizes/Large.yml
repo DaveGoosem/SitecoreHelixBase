@@ -1,0 +1,17 @@
+﻿---
+ID: "a8d93200-ca74-40ea-9528-a8a749331d09"
+Parent: "616cfb8e-f034-442d-9330-c40320fb2ae1"
+Template: "2d94476a-1192-409d-bba8-e1caa9dc3d72"
+Path: /sitecore/content/Global Settings/CTA Button Sizes/Large
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac020cb-9999-466a-8060-2d3d2baebccb"
+      Hint: ThemeValue
+      Value: large
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T051937Z

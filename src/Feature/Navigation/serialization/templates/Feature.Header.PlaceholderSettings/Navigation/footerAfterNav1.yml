@@ -1,0 +1,24 @@
+﻿---
+ID: "e2526d74-a5c8-494b-949b-9ebeec55201e"
+Parent: "901e9d81-52a2-4598-821e-24b4d30d868e"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Feature/Navigation/footerAfterNav1
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: footerAfterNav1
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {F2919029-2D0D-4DEB-A68C-EE9348E4EAE9}
+    {52B4D9BB-87A2-460F-90BF-9293B9815407}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200306T054757Z

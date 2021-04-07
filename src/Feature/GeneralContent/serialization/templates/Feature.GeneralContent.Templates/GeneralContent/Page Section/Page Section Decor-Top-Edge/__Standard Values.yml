@@ -1,0 +1,21 @@
+﻿---
+ID: "53fe2a42-b1b5-40a2-b4ca-0c42c7b187d5"
+Parent: "0859c065-b7eb-48d0-a86f-6fee9d3bb4f8"
+Template: "0859c065-b7eb-48d0-a86f-6fee9d3bb4f8"
+Path: "/sitecore/templates/Feature/GeneralContent/Page Section/Page Section Decor-Top-Edge/__Standard Values"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11ec02b1-bd5f-44d4-b549-63ac4c445942"
+      Hint: PageSectionDecorTopEdge
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T235836Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

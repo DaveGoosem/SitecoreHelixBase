@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<connectionStrings>
+  <!-- 
+    Sitecore connection strings.
+    All database connections for Sitecore are configured here.
+  -->
+  <add name="security" connectionString="Data Source={{SQLServer}};Initial Catalog=G8_Core;User ID=securityuser;Password={{SecurityDBUserPassword}}" />
+  <add name="web" connectionString="Data Source={{SQLServer}};Initial Catalog=G8_Web;User ID=webuser;Password={{WebDBUserPassword}}" />
+  <add name="messaging" connectionString="Data Source={{SQLServer}};Initial Catalog=G8_Messaging;User ID=messaginguser;Password={{MessagingDBUserPassword}}" />
+  <add name="experienceforms" connectionString="Data Source={{SQLServer}};Initial Catalog=G8_ExperienceForms;User ID=formsuser;Password={{FormsDBUserPassword}}" />
+  <add name="exm.master" connectionString="Data Source={{SQLServer}};Initial Catalog=G8_EXM.Master;User ID=exmmasteruser;Password={{EXMMasterDBUserPassword}}" />
+  <add name="solr.search" connectionString="{{SolrSearchEndpoint}}" />
+  <add name="xconnect.collection" connectionString="{{XConnectCollectionEndpoint}}" />
+  <add name="xconnect.collection.certificate" connectionString="StoreName=My;StoreLocation=LocalMachine;FindType=FindByThumbprint;FindValue={{XDBCertThumbprint}}" />
+  <add name="xdb.marketingautomation.operations.client" connectionString="{{XConnectCollectionEndpoint}}" />
+  <add name="xdb.marketingautomation.operations.client.certificate" connectionString="StoreName=My;StoreLocation=LocalMachine;FindType=FindByThumbprint;FindValue={{XDBCertThumbprint}}" />
+  <add name="xdb.referencedata.client" connectionString="{{XConnectCollectionEndpoint}}" />
+  <add name="xdb.referencedata.client.certificate" connectionString="StoreName=My;StoreLocation=LocalMachine;FindType=FindByThumbprint;FindValue={{XDBCertThumbprint}}" />
+  <add name="PackageManagementServiceUrl" connectionString="https://updatecenter.cloud.sitecore.net/" />
+  <add name="EXM.CryptographicKey" connectionString="{{EXMCryptoKey}}" />
+  <add name="EXM.AuthenticationKey" connectionString="{{EXMAuthKey}}" />
+  <add name="redis.sessions" connectionString="{{RedisEndpoint}}" />
+</connectionStrings>

@@ -1,0 +1,46 @@
+﻿---
+ID: "868d3511-02f9-4c97-bb5b-f9fa57fefacb"
+Parent: "e5d5e1cb-5f5b-4d33-831c-81c48831f497"
+Template: "1790cf89-8222-4ae9-81c8-9acdb34375e2"
+Path: /sitecore/content/Greenwood/Content/Navigation/Footer/Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c94df74-f12f-4318-98fe-12d4035b883b"
+      Hint: FooterSecondaryColumnItems
+      Type: Treelist
+      Value: |
+        {72C63167-3578-4630-9147-DE328D5F4178}
+        {06DC7FF0-5B55-4CA9-987D-B689025A7F6F}
+        {94376788-34FE-42A0-82B5-05D03C0E40F7}
+        {BCB9492B-E6DB-4A7A-A507-A0A84A8CD1DC}
+        {22421EFE-CE6D-4EC0-8A38-BBFFD889C753}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200713T001716Z
+    - ID: "329b1a84-7c14-4c9c-8864-4682af3fd517"
+      Hint: FooterLogoImage
+      Value: |
+        <image mediaid="{FC7BEC76-9549-4700-8EE9-B5E1B73F6186}" />
+    - ID: "37f839b3-7536-4523-a682-ee872f026bbb"
+      Hint: FooterPrimaryColumnItems
+      Type: Treelist
+      Value: |
+        {B5CCAEA3-F2B9-4652-B69E-2A5F742BA1DE}
+        {FB53BA0F-3635-4D1D-97A4-2E8F9B887D16}
+        {F83DD3C1-0355-4F59-AC46-38DE8B1C616A}
+        {E9AD54B9-BF49-4259-B042-9A150588A19D}
+        {67F55E27-2EF2-4DCF-A5F7-E1D23658A51F}
+        {06C7658B-97AE-4446-A8B5-FA7C0DFD2EBE}
+        {9C66126B-DEEA-4A70-BB2A-FB976B253E64}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "cefc2ee8-0b20-4b83-9eb1-fc53c6445a29"
+      Hint: FooterLogoLink
+      Value: |
+        <link linktype="internal" querystring="" target="" id="{9416DB1D-4C66-4CA1-AE26-BE7DA81B0E1C}" />

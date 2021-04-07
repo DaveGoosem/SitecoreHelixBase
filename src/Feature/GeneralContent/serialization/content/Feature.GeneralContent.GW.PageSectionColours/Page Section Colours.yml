@@ -1,0 +1,18 @@
+﻿---
+ID: "1a9997d6-c953-4bc8-9c40-8c93cef795d7"
+Parent: "3540bb3c-a763-4868-a5ba-987a6c04d3ff"
+Template: "4393d027-2bbe-44ca-a66f-c06a51449e29"
+Path: /sitecore/content/Greenwood/Settings/Page Section Colours
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T062850Z

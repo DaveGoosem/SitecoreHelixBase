@@ -1,0 +1,8 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc;
+
+@model Sample.Feature.GeneralContent.Models.IContentBlock
+
+@if (Model != null || Html.Glass().IsInEditingMode)
+{
+    @Html.Glass().Editable(x => x.ContentBlockRichText)
+}

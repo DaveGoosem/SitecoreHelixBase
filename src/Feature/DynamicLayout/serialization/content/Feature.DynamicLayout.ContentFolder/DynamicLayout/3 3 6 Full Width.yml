@@ -1,0 +1,22 @@
+﻿---
+ID: "1a6f0f53-f07b-4d4e-897d-4d59b90aef99"
+Parent: "8f8a7ab5-6444-4d31-b997-c752d3fbcc1f"
+Template: "06ffb06f-4f74-48ea-99ef-1ef6b595a976"
+Path: /sitecore/content/Global Content/DynamicLayout/3 3 6 Full Width
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T053332Z
+    - ID: "d3b553d5-5033-4ccd-a5db-7ac744c57e93"
+      Hint: RowIsFullWidth
+      Type: Checkbox
+      Value: 1

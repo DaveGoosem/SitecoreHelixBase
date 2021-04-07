@@ -1,0 +1,25 @@
+﻿---
+ID: "783a33fa-663f-4b06-8822-b45c97e07606"
+Parent: "9eef2722-931b-4d62-a46f-368423f292eb"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Feature/Header/mobileHeaderContainer1
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: mobileHeaderContainer1
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {50C42105-14C2-4D17-AD43-DA80934DD801}
+    {B48A7798-5367-4278-87C5-E3924513C7AA}
+    {52B4D9BB-87A2-460F-90BF-9293B9815407}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200306T013413Z

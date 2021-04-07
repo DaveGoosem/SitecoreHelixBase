@@ -1,0 +1,14 @@
+﻿---
+ID: "f8eb0574-89d3-4603-96c1-6ce092b69f61"
+Parent: "6b4b4c63-b0e6-4168-bec9-2d65999046a7"
+Template: "90c4b3d5-f2cb-4483-b9ab-8c95b93500c3"
+Path: /sitecore/content/Campaign/Content/Social
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200312T020318Z
