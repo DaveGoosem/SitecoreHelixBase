@@ -2,7 +2,7 @@
   <sitecore>
     <domainManager>
       <domains>
-        <domain id="G8" type="Sitecore.Security.Domains.Domain, Sitecore.Kernel">
+        <domain id="Sample" type="Sitecore.Security.Domains.Domain, Sitecore.Kernel">
           <param desc="name">$(id)</param>
           <ensureAnonymousUser>false</ensureAnonymousUser>
         </domain>
@@ -12,29 +12,29 @@
       <event name="publish:end">
         <handler type="Sitecore.Publishing.HtmlCacheClearer, Sitecore.Kernel" method="ClearCache">
           <sites hint="list">
-            <site hint="G8">Greenwood</site>
+            <site hint="Sample">Brand</site>
           </sites>
         </handler>
       </event>
       <event name="publish:end:remote">
         <handler type="Sitecore.Publishing.HtmlCacheClearer, Sitecore.Kernel" method="ClearCache">
           <sites hint="list">
-            <site hint="G8">Greenwood</site>
+            <site hint="Sample">Brand</site>
           </sites>
         </handler>
       </event>
     </events>
     <sites>
-      <site name="Greenwood" patch:after="site[@name='modules_website']"
-            hostName="{{greenwoodHostnames}}"
-            targetHostName="{{greenwoodTargetHostname}}"
+      <site name="Brand" patch:after="site[@name='modules_website']"
+            hostName="{{brandHostnames}}"
+            targetHostName="{{brandTargetHostname}}"
             database="web"
             virtualFolder="/"
             physicalFolder="/"
-            rootPath="/sitecore/content/Greenwood"
+            rootPath="/sitecore/content/Brand"
             startItem="/Home"
             dictionaryAutoCreate="false"
-            placeholderSettingsRoot="/sitecore/layout/Placeholder Settings/Project/Greenwood"
+            placeholderSettingsRoot="/sitecore/layout/Placeholder Settings/Project/Brand"
             domain="extranet"
             allowDebug="true"
             cacheHtml="true"
@@ -55,17 +55,17 @@
     </sites>
     <cacheSizes>
       <sites>
-        <Greenwood>
+        <Brand>
           <html>200MB</html>
           <registry>0</registry>
           <viewState>0</viewState>
           <xsl>100MB</xsl>
-        </Greenwood>
+        </Brand>
       </sites>
     </cacheSizes>
     <settings>
       <setting name="Preview.DefaultSite">
-        <patch:attribute name="value" value="Greenwood" />
+        <patch:attribute name="value" value="Brand" />
       </setting>
 
       <setting name="HtmlEditor.DefaultProfile">
